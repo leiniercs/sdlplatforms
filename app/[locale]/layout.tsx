@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { ReactNode } from "react";
 import { unstable_setRequestLocale, getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";

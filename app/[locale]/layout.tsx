@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { unstable_setRequestLocale, getTranslations } from "next-intl/server";
-import { useTranslations } from "next-intl";
+import { useMessages, useTranslations } from "next-intl";
 import { Inter } from "next/font/google";
 import Providers from "@/components/providers";
 import "./globals.css";
@@ -31,13 +31,15 @@ export default function LocaleLayout({
 	params: { locale }
 }: Readonly<CustomLayoutProps>) {
 	unstable_setRequestLocale(locale);
-
+	const messages = useMessages();
 	const t = useTranslations("app");
 
 	return (
 		<html lang={locale} className="dark">
 			<body className={inter.className}>
-				<Providers>{children}</Providers>
+				<Providers locale={locale} messages={messages}>
+					{children}
+				</Providers>
 			</body>
 		</html>
 	);

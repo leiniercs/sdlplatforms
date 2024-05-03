@@ -1,7 +1,22 @@
-export default function LocalePage() {
+import { ReactNode } from "react";
+import Header from "@/components/header";
+
+type CustomPageProps = {
+	children: ReactNode;
+	params: { locale: string };
+};
+
+export default function LocalePage({
+	children,
+	params: { locale }
+}: Readonly<CustomPageProps>) {
 	return (
-		<main>
-			<p className="text-9xl">This is a test</p>
-		</main>
+		<>
+			<header>
+				<Header />
+			</header>
+			<main></main>
+			<footer></footer>
+		</>
 	);
 }

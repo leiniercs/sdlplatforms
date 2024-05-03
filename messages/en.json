@@ -4,5 +4,11 @@
 	},
 	"app": {
 		"title": "SDL Platforms"
+	},
+	"header": {
+		"openMenu": "Open menu",
+		"closeMenu": "Close menu",
+		"logo": "Logo",
+		"menuitems": { "home": "Home", "projects": "Projects" }
 	}
 }

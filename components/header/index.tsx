@@ -20,17 +20,15 @@ type CustomComponentsProps = {
 	messages: string | AbstractIntlMessages;
 };
 
-const itemFont = Rubik({ subsets: ["latin"], weight: "500" });
+const itemFont = Rubik({ subsets: ["latin"], weight: "500", preload: true });
 
 export default function Header({ messages }: Readonly<CustomComponentsProps>) {
 	const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 	const currentPathname = usePathname();
 
 	const menuItems: NavMenuItem[] = [
-		// @ts-expect-error
-		{ name: messages.menuitems.home, href: "/" },
-		// @ts-expect-error
-		{ name: messages.menuitems.projects, href: "/projects" }
+		// @ts-ignore
+		{ name: messages.menuitems.home, href: "/" }
 	];
 
 	return (
@@ -42,16 +40,16 @@ export default function Header({ messages }: Readonly<CustomComponentsProps>) {
 		>
 			<NavbarContent justify="start">
 				<NavbarMenuToggle
-					// @ts-expect-error
+					// @ts-ignore
 					aria-label={isMenuOpen ? messages.closeMenu : messages.openMenu}
 					className="sm:hidden"
 				/>
-				<NavbarBrand className="hidden md:inline-block">
+				<NavbarBrand className="hidden sm:inline-block">
 					<Link href="/">
 						<Image
 							classNames={{ img: "!max-h-[50px] !rounded-none" }}
 							src="/images/logo/logo-nobackground.svg"
-							// @ts-expect-error
+							// @ts-ignore
 							alt={messages.logo}
 						/>
 					</Link>
@@ -64,7 +62,7 @@ export default function Header({ messages }: Readonly<CustomComponentsProps>) {
 						<Image
 							classNames={{ img: "!max-h-[50px] !rounded-none" }}
 							src="/images/logo/logo-nobackground.svg"
-							// @ts-expect-error
+							// @ts-ignore
 							alt={messages.logo}
 						/>
 					</Link>

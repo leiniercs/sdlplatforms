@@ -17,5 +17,27 @@
 			"name": "Themato",
 			"description": "NextJS themes market"
 		}
+	},
+	"features": {
+		"aboutus": {
+			"title": "About us",
+			"description": "SDL Platforms stands as a beacon at the forefront of technological innovation. Our team embodies a culture fueled by boundless creativity, unwavering collaboration, and an insatiable hunger for excellence."
+		},
+		"innovation": {
+			"title": "Innovation",
+			"description": "We embrace change and continuously seek new ways to improve and evolve. Innovation is in our DNA, and we encourage bold ideas and experimentation."
+		},
+		"empowerment": {
+			"title": "Empowerment",
+			"description": "We empower our users by providing intuitive, user-friendly solutions. Whether it’s through our web, mobile or desktop applications, we aim to make technology accessible to all."
+		},
+		"community": {
+			"title": "Community",
+			"description": "We recognize that our success is intertwined with the success of our community. We actively engage with users, partners, and stakeholders to build lasting relationships."
+		},
+		"sustainability": {
+			"title": "Sustainability",
+			"description": "We are committed to responsible practices. Our digital services prioritize efficiency, security, and environmental consciousness."
+		}
 	}
 }

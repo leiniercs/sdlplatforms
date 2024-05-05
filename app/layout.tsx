@@ -26,7 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
 			title: "SDL Platforms",
 			description: t("description"),
 			images: [`${urlBase}/images/logo/logo-background.png`],
-			locale: "en_US",
+			locale: "en",
 			type: "website"
 		},
 		twitter: {

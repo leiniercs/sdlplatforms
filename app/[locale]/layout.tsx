@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
 import { Noto_Sans } from "next/font/google";
@@ -20,12 +21,19 @@ type CustomLayoutProps = {
 
 export async function generateMetadata({
 	params: { locale }
-}: Readonly<CustomMetadataProps>) {
+}: Readonly<CustomMetadataProps>): Promise<Metadata> {
 	const t = await getTranslations({ locale, namespace: "metadata" });
 
 	return {
-		title: "SDL Platforms",
-		description: t("description")
+		description: t("description"),
+		keywords: t("keywords"),
+		openGraph: {
+			description: t("description"),
+			locale: locale
+		},
+		twitter: {
+			description: t("description")
+		}
 	};
 }
 
@@ -35,9 +43,6 @@ export default function LocaleLayout({
 }: Readonly<CustomLayoutProps>) {
 	return (
 		<html lang={locale} className={`dark ${globalFont.className}`}>
-			<head>
-				<link rel="icon" href="/images/logo/favicon.png" type="image/png" />
-			</head>
 			<body>
 				<Providers>{children}</Providers>
 			</body>

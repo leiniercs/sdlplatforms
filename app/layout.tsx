@@ -44,6 +44,7 @@ export async function generateMetadata(): Promise<Metadata> {
 			}
 		},
 		category: "technology",
+		verification: { google: "qTPFncX-rYu8jMUfjaPfIwjIzWemG0kg0Rk3uxF8DvA" },
 		robots: {
 			index: true,
 			follow: true,

@@ -8,6 +8,13 @@ const config: Config = {
 		"./app/**/*.{js,ts,jsx,tsx,mdx}"
 	],
 	darkMode: "class",
+	theme: {
+		extend: {
+			backgroundImage: {
+				hero: "linear-gradient(to bottom right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);"
+			}
+		}
+	},
 	plugins: [nextui()]
 };
 

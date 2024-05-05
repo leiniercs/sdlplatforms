@@ -22,6 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
 			apple: "/images/logo/favicon.png"
 		},
 		openGraph: {
+			siteName: "SDL Platforms",
 			title: "SDL Platforms",
 			description: t("description"),
 			images: [`${urlBase}/images/logo/logo-background.png`],
@@ -30,6 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
 		},
 		twitter: {
 			card: "summary_large_image",
+			site: "SDL Platforms",
 			title: "SDL Platforms",
 			description: t("description"),
 			images: [`${urlBase}/images/logo/logo-background.png`]

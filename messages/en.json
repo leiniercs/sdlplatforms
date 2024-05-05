@@ -1,6 +1,7 @@
 {
 	"metadata": {
-		"description": "Matrix company that hosts software and services that have one goal in common: to offer useful and high quality services to the masses."
+		"description": "Matrix company that hosts software and services that have one goal in common: to offer useful and high quality services to the masses.",
+		"keywords": "sdl platforms"
 	},
 	"app": {
 		"title": "SDL Platforms"

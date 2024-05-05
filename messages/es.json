@@ -1,6 +1,7 @@
 {
 	"metadata": {
-		"description": "Compañía matríz que hospeda software y servicios que tienen un objetivo en común: ofrecer servicios útiles y de alta calidad a las masas."
+		"description": "Compañía matríz que hospeda software y servicios que tienen un objetivo en común: ofrecer servicios útiles y de alta calidad a las masas.",
+		"keywords": "sdl platforms"
 	},
 	"app": {
 		"title": "SDL Platforms"

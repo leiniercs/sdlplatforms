@@ -10,5 +10,12 @@
 		"closeMenu": "Cerrar menú",
 		"logo": "Logo",
 		"menuitems": { "home": "Inicio", "projects": "Proyectos" }
+	},
+	"hero": {},
+	"projects": {
+		"themato": {
+			"name": "Themato",
+			"description": "Mercado de temas para NextJS"
+		}
 	}
 }

@@ -3,6 +3,7 @@ import type { AbstractIntlMessages } from "next-intl";
 import type { Key } from "@react-types/shared";
 import { useEffect, useMemo, useState } from "react";
 import { Image, Tabs, Tab } from "@nextui-org/react";
+import { motion } from "framer-motion";
 import { Poppins } from "next/font/google";
 import { features } from "@/components/features";
 import { Feature } from "@/types/feature";
@@ -36,6 +37,17 @@ export default function Hero({
 
 		return tabs;
 	}, [featuresMessages]);
+
+	const textVariants = {
+		hidden: { y: "50%", opacity: 0 },
+		show: {
+			y: 0,
+			opacity: 1,
+			transition: {
+				duration: 0.5
+			}
+		}
+	};
 
 	useEffect(() => {
 		let heroTimer = setInterval(() => {
@@ -81,16 +93,22 @@ export default function Hero({
 							alt={tab.title}
 						/>
 						<div className="absolute top-0 left-0 right-0 bottom-0 -z-10 bg-hero" />
-						<h1
+						<motion.h1
 							className={`text-4xl capitalize mb-5 lg:text-7xl lg:mb-10 ${titleFont.className}`}
+							variants={textVariants}
+							initial="hidden"
+							animate="show"
 						>
 							{tab.title}
-						</h1>
-						<p
+						</motion.h1>
+						<motion.p
 							className={`text-xl leading-[2rem] lg:text-4xl lg:leading-[3rem] ${textFont.className}`}
+							variants={textVariants}
+							initial="hidden"
+							animate="show"
 						>
 							{tab.description}
-						</p>
+						</motion.p>
 					</Tab>
 				)}
 			</Tabs>

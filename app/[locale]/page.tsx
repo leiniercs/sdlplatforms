@@ -20,7 +20,10 @@ export default function LocalePage({
 				<Header messages={messages.header} />
 			</header>
 			<main>
-				<Hero messages={messages.hero} />
+				<Hero
+					heroMessages={messages.hero}
+					featuresMessages={messages.features}
+				/>
 			</main>
 			<footer></footer>
 		</>

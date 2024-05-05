@@ -56,7 +56,7 @@ export default function Hero({
 					? "0"
 					: String(Number(prevState) + 1)
 			);
-		}, 10000);
+		}, 15000);
 
 		return () => {
 			clearInterval(heroTimer);

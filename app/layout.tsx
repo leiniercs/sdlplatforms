@@ -9,8 +9,8 @@ type CustomLayoutProps = {
 
 export async function generateMetadata(): Promise<Metadata> {
 	const t = await getTranslations({ locale: "en", namespace: "metadata" });
-	const urlBase = "http://localhost:3000";
-	//	const urlBase = "https://dev.sdlplatforms.com";
+	//const urlBase = "http://localhost:3000";
+	const urlBase = "https://dev.sdlplatforms.com";
 
 	return {
 		title: "SDL Platforms",

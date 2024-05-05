@@ -69,7 +69,7 @@ export default function Hero({
 				classNames={{
 					wrapper:
 						"w-full h-full pt-24 px-10 pb-6 md:pt-28 md:px-28 lg:pt-36 lg:px-40",
-					base: "justify-end opacity-30",
+					base: "justify-end opacity-40",
 					panel: "w-full h-full sm:w-[80%] md:w-[70%] lg:w-[60%]"
 				}}
 				placement="bottom"

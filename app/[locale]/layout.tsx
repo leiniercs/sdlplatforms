@@ -1,15 +1,18 @@
 import { ReactNode } from "react";
-import { unstable_setRequestLocale, getTranslations } from "next-intl/server";
-import { useMessages, useTranslations } from "next-intl";
-import { Inter } from "next/font/google";
+import { getTranslations } from "next-intl/server";
+import { Noto_Sans } from "next/font/google";
 import Providers from "@/components/providers";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const globalFont = Noto_Sans({
+	subsets: ["latin"],
+	preload: true
+});
 
 type CustomMetadataProps = {
 	params: { locale: string };
 };
+
 type CustomLayoutProps = {
 	children: ReactNode;
 	params: { locale: string };
@@ -30,16 +33,13 @@ export default function LocaleLayout({
 	children,
 	params: { locale }
 }: Readonly<CustomLayoutProps>) {
-	unstable_setRequestLocale(locale);
-	const messages = useMessages();
-	const t = useTranslations("app");
-
 	return (
-		<html lang={locale} className="dark">
-			<body className={inter.className}>
-				<Providers locale={locale} messages={messages}>
-					{children}
-				</Providers>
+		<html lang={locale} className={`dark ${globalFont.className}`}>
+			<head>
+				<link rel="icon" href="/images/logo/favicon.png" type="image/png" />
+			</head>
+			<body>
+				<Providers>{children}</Providers>
 			</body>
 		</html>
 	);

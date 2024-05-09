@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ReactNode } from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
+import { useMessages } from "next-intl";
 import { Noto_Sans } from "next/font/google";
 import Providers from "@/components/providers";
 import "./globals.css";
@@ -41,10 +42,15 @@ export default function LocaleLayout({
 	children,
 	params: { locale }
 }: Readonly<CustomLayoutProps>) {
+	unstable_setRequestLocale(locale);
+	const messages = useMessages();
+
 	return (
 		<html lang={locale} className={`dark ${globalFont.className}`}>
 			<body>
-				<Providers>{children}</Providers>
+				<Providers locale={locale} messages={messages}>
+					{children}
+				</Providers>
 			</body>
 		</html>
 	);

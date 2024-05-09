@@ -1,7 +1,7 @@
 "use client";
 import type { NavMenuItem } from "@/types/menu";
-import type { AbstractIntlMessages } from "next-intl";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import {
 	Image,
 	Link as UILink,
@@ -16,19 +16,16 @@ import {
 import { Rubik } from "next/font/google";
 import { Link, usePathname } from "@/components/navigation";
 
-type CustomComponentsProps = {
-	messages: string | AbstractIntlMessages;
-};
-
 const itemFont = Rubik({ subsets: ["latin"], weight: "500", preload: true });
 
-export default function Header({ messages }: Readonly<CustomComponentsProps>) {
+export default function Header() {
 	const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 	const currentPathname = usePathname();
+	const tHeader = useTranslations("header");
 
 	const menuItems: NavMenuItem[] = [
 		// @ts-ignore
-		{ name: messages.menuitems.home, href: "/" }
+		{ name: tHeader("menuitems.home"), href: "/" }
 	];
 
 	return (
@@ -41,7 +38,9 @@ export default function Header({ messages }: Readonly<CustomComponentsProps>) {
 			<NavbarContent justify="start">
 				<NavbarMenuToggle
 					// @ts-ignore
-					aria-label={isMenuOpen ? messages.closeMenu : messages.openMenu}
+					aria-label={
+						isMenuOpen ? tHeader("closeMenu") : tHeader("openMenu")
+					}
 					className="sm:hidden"
 				/>
 				<NavbarBrand className="hidden sm:inline-block">
@@ -50,7 +49,7 @@ export default function Header({ messages }: Readonly<CustomComponentsProps>) {
 							classNames={{ img: "!max-h-[50px] !rounded-none" }}
 							src="/images/logo/logo-nobackground.svg"
 							// @ts-ignore
-							alt={messages.logo}
+							alt={tHeader("logo")}
 						/>
 					</Link>
 				</NavbarBrand>
@@ -63,7 +62,7 @@ export default function Header({ messages }: Readonly<CustomComponentsProps>) {
 							classNames={{ img: "!max-h-[50px] !rounded-none" }}
 							src="/images/logo/logo-nobackground.svg"
 							// @ts-ignore
-							alt={messages.logo}
+							alt={tHeader("logo")}
 						/>
 					</Link>
 				</NavbarBrand>

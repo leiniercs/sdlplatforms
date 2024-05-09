@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
-import { image } from "@nextui-org/react";
 
 type CustomLayoutProps = {
 	children: ReactNode;

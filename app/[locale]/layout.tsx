@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
+import type { ResolvingMetadata } from "next";
 import { ReactNode } from "react";
+import { Metadata } from "next";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { useMessages } from "next-intl";
 import { Noto_Sans } from "next/font/google";
@@ -20,20 +21,25 @@ type CustomLayoutProps = {
 	params: { locale: string };
 };
 
-export async function generateMetadata({
-	params: { locale }
-}: Readonly<CustomMetadataProps>): Promise<Metadata> {
+export async function generateMetadata(
+	{ params: { locale } }: Readonly<CustomMetadataProps>,
+	parent: ResolvingMetadata
+): Promise<Metadata> {
 	const t = await getTranslations({ locale, namespace: "metadata" });
+	const previousOpenGraph = (await parent).openGraph || {};
+	const previousTwitter = (await parent).twitter || {};
 
 	return {
 		description: t("description"),
 		keywords: t("keywords"),
 		openGraph: {
 			description: t("description"),
-			locale: locale
+			locale: locale,
+			...previousOpenGraph
 		},
 		twitter: {
-			description: t("description")
+			description: t("description"),
+			...previousTwitter
 		}
 	};
 }

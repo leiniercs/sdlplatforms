@@ -14,7 +14,7 @@ import {
 	NavbarMenuItem
 } from "@nextui-org/react";
 import { Rubik } from "next/font/google";
-import { Link, usePathname } from "@/components/navigation";
+import { Link, usePathname } from "@/components/common/navigation";
 
 const itemFont = Rubik({ subsets: ["latin"], weight: "500", preload: true });
 

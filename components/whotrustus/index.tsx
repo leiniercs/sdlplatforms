@@ -27,7 +27,10 @@ export default function WhoTrustUs() {
 		animate: {
 			y: 0,
 			opacity: 1,
-			transition: { duration: 0.2, staggerChildren: 0.3 }
+			transition: {
+				duration: 0.2,
+				staggerChildren: 0.3
+			}
 		}
 	};
 	const tWhoTrustUs = useTranslations("whotrustus");

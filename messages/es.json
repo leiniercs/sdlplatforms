@@ -13,12 +13,7 @@
 		"menuitems": { "home": "Inicio", "projects": "Proyectos" }
 	},
 	"hero": {},
-	"projects": {
-		"themato": {
-			"name": "Themato",
-			"description": "Mercado de temas para NextJS"
-		}
-	},
+
 	"features": {
 		"aboutus": {
 			"title": "Sobre nosotros",
@@ -41,5 +36,22 @@
 			"description": "Estamos comprometidos con prácticas responsables. Nuestros servicios digitales priorizan la eficiencia, la seguridad y la conciencia ambiental."
 		}
 	},
-	"whotrustus": { "title": "Confiado por líderes de la industria" }
+	"whotrustus": { "title": "Confiado por líderes de la industria" },
+	"projects": {
+		"title": "Proyectos",
+		"active": "Activos",
+		"upcoming": "Próximos",
+		"thimsmarket": {
+			"name": "Thims Market",
+			"description": "<p>Oferta para explorar una amplia variedad de plantillas de sitios web para NextJS.</p> <p>Características clave:</p> <ul> <li><strong>Visibilidad y alcance:</strong> Ofrecemos contenido de calidad a una amplia y diversa audiencia de personas interesadas en la creación de sitios web. Al publicar tus plantillas en el mercado, puedes aumentar tu visibilidad y llegar a una audiencia más amplia, generando más descargas y, por lo tanto, más ingresos.</li> <li><strong>Comunidad y retroalimentación:</strong> Forma parte de una comunidad activa de diseñadores y desarrolladores, recibiendo comentarios valiosos que mejorarán las plantillas según las necesidades de la comunidad. Además, los comentarios positivos de los usuarios aumentarán la reputación y atraerán a más clientes.</li> <li><strong>Modelo de negocio sostenible:</strong> Este mercado ofrece un modelo de negocio sostenible para los creadores. Tenemos una estructura de ingresos compartida que te motiva a crear productos de alta calidad a largo plazo, lo que genera beneficios significativos para todos.</li> </ul>"
+		},
+		"globalvpn": {
+			"name": "Global VPN",
+			"description": "Proveedor de Redes Privadas Virtuales global"
+		},
+		"cloudstorage": {
+			"name": "Cloud Storage",
+			"description": "Proveerdor de almacenamiento en la nube"
+		}
+	}
 }

@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import WhoTrustUs from "@/components/whotrustus";
+import Projects from "@/components/projects";
 
 type CustomPageProps = {
 	params: { locale: string };
@@ -14,7 +15,8 @@ export default function LocalePage({ params: { locale } }: CustomPageProps) {
 			</header>
 			<main>
 				<Hero />
-				<WhoTrustUs locale={locale} />
+				<WhoTrustUs />
+				<Projects />
 			</main>
 			<footer></footer>
 		</>

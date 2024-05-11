@@ -13,12 +13,7 @@
 		"menuitems": { "home": "Home", "projects": "Projects" }
 	},
 	"hero": {},
-	"projects": {
-		"themato": {
-			"name": "Themato",
-			"description": "NextJS themes market"
-		}
-	},
+
 	"features": {
 		"aboutus": {
 			"title": "About us",
@@ -41,5 +36,22 @@
 			"description": "We are committed to responsible practices. Our digital services prioritize efficiency, security, and environmental consciousness."
 		}
 	},
-	"whotrustus": { "title": "Trusted by industry leaders" }
+	"whotrustus": { "title": "Trusted by industry leaders" },
+	"projects": {
+		"title": "Projects",
+		"active": "Active",
+		"upcoming": "Upcoming",
+		"thimsmarket": {
+			"name": "Thims Market",
+			"description": "<p>Offer to explore a wide number of website templates for NextJS.</p><p>Key features:</p><ul><li><strong>Visibility and Reach:</strong> We offer quality content to a wide and diverse audience of people interested in website creation. By publishing your templates on the marketplace, you can increase your visibility and reach a wider audience, generating more downloads and therefore more revenue.</li><li><strong>Community and Feedback:</strong> Become part of an active community of designers and developers, receiving valuable feedback that will make templates improve based on community needs. Additionally, positive user comments will increase reputation and attract more customers.</li><li><strong>Sustainable Business Model:</strong> This marketplace offers a sustainable business model for creators. We have a shared income structure that motivates you to create high-quality, long-term products, which generates high benefits for everyone.</li></ul>"
+		},
+		"globalvpn": {
+			"name": "Global VPN",
+			"description": "Global VPN Provider"
+		},
+		"cloudstorage": {
+			"name": "Cloud Storage",
+			"description": "Cloud Storage Provider"
+		}
+	}
 }

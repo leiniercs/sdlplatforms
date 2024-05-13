@@ -1,14 +1,16 @@
-import type { ReactNode, ReactNodeArray } from "react";
+import type { ReactNode } from "react";
 import { ReactElement } from "react";
 
-export type Project = {
+export type ProjectDetails = {
 	key: string;
 	name: string;
-	description: string | ReactElement | ReactNodeArray;
+	logo?: string;
+	cover?: string;
+	description: string | ReactElement | ReactNode[];
 	url?: string;
 };
 
-export type Projects = {
-	active: Project[];
-	upcoming?: Project[];
+export type ProjectsDetails = {
+	active: ProjectDetails[];
+	upcoming?: ProjectDetails[];
 };

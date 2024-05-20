@@ -126,7 +126,13 @@ export default function Project({ project }: CustomComponentProps) {
 					{project.features.map(
 						(feature: FeatureDetails, index: number) => (
 							<motion.div key={index} variants={motionFadeFromBellow}>
-								<Card classNames={{ base: "bg-slate-800 h-full" }}>
+								<Card
+									classNames={{
+										base: "bg-slate-800 h-full",
+										header: "text-lg lg:text-xl font-semibold",
+										body: "text-base lg:text-lg"
+									}}
+								>
 									<CardHeader>{feature.title}</CardHeader>
 									<CardBody>{feature.description}</CardBody>
 								</Card>

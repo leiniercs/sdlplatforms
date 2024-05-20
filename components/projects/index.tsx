@@ -16,15 +16,23 @@ export default function Projects() {
 				name: "Thims Market",
 				logo: "thimsmarket.svg",
 				cover: "thimsmarket.png",
-				// @ts-ignore
-				description: tProjects.rich("thimsmarket.description", {
-					p: (chunk) => <p className="leading-normal mb-3">{chunk}</p>,
-					strong: (chunk) => (
-						<span className="font-semibold">{chunk}</span>
-					),
-					ul: (chunk) => <ul className="pl-4">{chunk}</ul>,
-					li: (chunk) => <li className="leading-normal mb-2">{chunk}</li>
-				}),
+				description: tProjects("thimsmarket.description"),
+				features: [
+					{
+						title: tProjects("thimsmarket.features.one.title"),
+						description: tProjects("thimsmarket.features.one.description")
+					},
+					{
+						title: tProjects("thimsmarket.features.two.title"),
+						description: tProjects("thimsmarket.features.two.description")
+					},
+					{
+						title: tProjects("thimsmarket.features.three.title"),
+						description: tProjects(
+							"thimsmarket.features.three.description"
+						)
+					}
+				],
 				url: "https://www.thims.market"
 			}
 		],
@@ -32,28 +40,46 @@ export default function Projects() {
 			{
 				key: "cloudstorage",
 				name: "Cloud Storage",
-				// @ts-ignore
-				description: tProjects.rich("cloudstorage.description", {
-					p: (chunk) => <p className="leading-normal mb-3">{chunk}</p>,
-					strong: (chunk) => (
-						<span className="font-semibold">{chunk}</span>
-					),
-					ul: (chunk) => <ul className="pl-4">{chunk}</ul>,
-					li: (chunk) => <li className="leading-normal mb-2">{chunk}</li>
-				})
+				description: tProjects("cloudstorage.description"),
+				features: [
+					{
+						title: tProjects("cloudstorage.features.one.title"),
+						description: tProjects(
+							"cloudstorage.features.one.description"
+						)
+					},
+					{
+						title: tProjects("cloudstorage.features.two.title"),
+						description: tProjects(
+							"cloudstorage.features.two.description"
+						)
+					},
+					{
+						title: tProjects("cloudstorage.features.three.title"),
+						description: tProjects(
+							"cloudstorage.features.three.description"
+						)
+					}
+				]
 			},
 			{
 				key: "globalvpn",
 				name: "Global VPN",
-				// @ts-ignore
-				description: tProjects.rich("globalvpn.description", {
-					p: (chunk) => <p className="leading-normal mb-3">{chunk}</p>,
-					strong: (chunk) => (
-						<span className="font-semibold">{chunk}</span>
-					),
-					ul: (chunk) => <ul className="pl-4">{chunk}</ul>,
-					li: (chunk) => <li className="leading-normal mb-2">{chunk}</li>
-				})
+				description: tProjects("globalvpn.description"),
+				features: [
+					{
+						title: tProjects("globalvpn.features.one.title"),
+						description: tProjects("globalvpn.features.one.description")
+					},
+					{
+						title: tProjects("globalvpn.features.two.title"),
+						description: tProjects("globalvpn.features.two.description")
+					},
+					{
+						title: tProjects("globalvpn.features.three.title"),
+						description: tProjects("globalvpn.features.three.description")
+					}
+				]
 			}
 		]
 	};
@@ -71,22 +97,21 @@ export default function Projects() {
 
 	return (
 		<section className="relative flex flex-col items-center py-28 px-10 bg-slate-900">
-			<motion.div
-				className="flex flex-col gap-16 items-center max-w-screen-lg"
-				variants={motionFadeFromBellow}
-				initial="initial"
-				whileInView="animate"
-			>
+			<div className="flex flex-col gap-16 items-center max-w-screen-lg">
 				<motion.h1
 					className={`text-2xl lg:text-4xl uppercase ${titleFont.className}`}
 					variants={motionFadeFromBellow}
+					initial="initial"
+					whileInView="animate"
 				>
 					{tProjects("title")}
 				</motion.h1>
-				<motion.div className="w-full" variants={motionFadeFromBellow}>
+				<div className="w-full">
 					<motion.h2
 						className={`text-xl lg:text-3xl uppercase ${titleFont.className}`}
 						variants={motionFadeFromBellow}
+						initial="initial"
+						whileInView="animate"
 					>
 						{tProjects("active")}
 					</motion.h2>
@@ -95,12 +120,14 @@ export default function Projects() {
 							<Project key={index} project={project} />
 						)
 					)}
-				</motion.div>
+				</div>
 				{projects.upcoming && (
-					<motion.div className="w-full" variants={motionFadeFromBellow}>
+					<div className="w-full">
 						<motion.h2
 							className={`text-xl lg:text-3xl uppercase ${titleFont.className}`}
 							variants={motionFadeFromBellow}
+							initial="initial"
+							whileInView="animate"
 						>
 							{tProjects("upcoming")}
 						</motion.h2>
@@ -109,9 +136,9 @@ export default function Projects() {
 								<Project key={index} project={project} />
 							)
 						)}
-					</motion.div>
+					</div>
 				)}
-			</motion.div>
+			</div>
 		</section>
 	);
 }

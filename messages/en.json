@@ -41,18 +41,61 @@
 		"title": "Projects",
 		"active": "Active",
 		"upcoming": "Upcoming",
+		"keyfeatures": "Key Features",
 		"gotoproject": "Go to the project",
 		"thimsmarket": {
 			"name": "Thims Market",
-			"description": "<p>Offer to explore a wide number of website templates for NextJS.</p><p>Key features:</p><ul><li><strong>Visibility and Reach:</strong> We offer quality content to a wide and diverse audience of people interested in website creation. By publishing your templates on the marketplace, you can increase your visibility and reach a wider audience, generating more downloads and therefore more revenue.</li><li><strong>Community and Feedback:</strong> Become part of an active community of designers and developers, receiving valuable feedback that will make templates improve based on community needs. Additionally, positive user comments will increase reputation and attract more customers.</li><li><strong>Sustainable Business Model:</strong> This marketplace offers a sustainable business model for creators. We have a shared income structure that motivates you to create high-quality, long-term products, which generates high benefits for everyone.</li></ul>"
+			"description": "Thims Market is the ultimate marketplace where web designers and developers connect to share, sell, and discover exceptional website templates for NextJS, fostering a thriving community that unlocks new revenue streams and creative opportunities.",
+			"features": {
+				"one": {
+					"title": "Visibility and Reach",
+					"description": "We offer quality content to a wide and diverse audience of people interested in website creation."
+				},
+				"two": {
+					"title": "Community and Feedback",
+					"description": "Everyone can become part of an active community of designers and developers."
+				},
+				"three": {
+					"title": "Sustainable Business Model",
+					"description": "We have a shared income structure that motivates creators to create high-quality website templates."
+				}
+			}
 		},
 		"globalvpn": {
 			"name": "GlobalVPN",
-			"description": "<p>GlobalVPN is your premier choice for online privacy and unrestricted internet access. With servers in over 50 countries, our VPN service ensures that your online activities are secure, private, and free from geographical restrictions.</p><p>Key Features:</p><ul><li><strong>Worldwide Server Network:</strong> Enjoy a vast selection of servers across the globe, allowing you to connect from virtually anywhere to anywhere.</li><li><strong>Military-Grade Encryption:</strong> We use the strongest encryption protocols to protect your data, ensuring that your online presence is shielded from prying eyes.</li><li><strong>No Logs Policy:</strong> Your privacy is our priority. We do not track or store any of your online activities, giving you complete peace of mind.</li><li><strong>One-Click Connection:</strong> Our user-friendly app makes connecting to our VPN a breeze. One click is all it takes to secure your connection.</li><li><strong>Unlimited Bandwidth:</strong> Stream, download, and browse without any restrictions. Our service provides unlimited bandwidth so you can enjoy the internet without limits.</li><li><strong>Multiple Device Support:</strong> Protect all your devices with a single account. Our VPN is compatible with smartphones, tablets, laptops, and more.</li><li><strong>24/7 Customer Support:</strong> Our dedicated support team is always ready to help you with any questions or issues, ensuring a smooth and hassle-free experience.</li></ul><p>GlobalGuard VPN is more than just a VPN service; it’s a commitment to providing you with the freedom to explore the internet securely and without boundaries.</p>"
+			"description": "GlobalVPN is your premier choice for online privacy and unrestricted internet access. With servers in over 50 countries, our VPN service ensures that your online activities are secure, private, and free from geographical restrictions.",
+			"features": {
+				"one": {
+					"title": "Worldwide Server Network",
+					"description": "Enjoy a vast selection of servers across the globe, allowing you to connect from virtually anywhere to anywhere."
+				},
+				"two": {
+					"title": "Military-Grade Encryption",
+					"description": "We use the strongest encryption protocols to protect your data, ensuring that your online presence is shielded from prying eyes."
+				},
+				"three": {
+					"title": "No Logs Policy",
+					"description": "Your privacy is our priority. We do not track or store any of your online activities, giving you complete peace of mind."
+				}
+			}
 		},
 		"cloudstorage": {
 			"name": "CloudStorage",
-			"description": "<p>CloudStorage is the ultimate solution for your digital storage needs, offering a seamless blend of security, accessibility, and convenience. With CloudStorage, you can rest assured that your data is protected and available whenever you need it.</p><p>Key Features:</p><ul><li><strong>Unmatched Security:</strong> Our state-of-the-art encryption ensures that your files are always protected. With end-to-end encryption, your data is secure from the moment you upload it until you access it.</li><li><strong>Anywhere Access:</strong> Access your files from any device, anywhere in the world. Whether you’re on a phone, tablet, or computer, your data is just a click away.</li><li><strong>Effortless Sharing:</strong> Share files and folders with colleagues, friends, and family with ease. Set permissions and share links securely, knowing that only the intended recipients can access your data.</li><li><strong>Automatic Backup:</strong> Never worry about losing important files again. Our automatic backup feature ensures that your data is always up to date and safeguarded against accidental loss.</li><li><strong>Scalable Storage Options:</strong> Choose a plan that fits your needs. From personal use to enterprise solutions, we offer a range of storage capacities that grow with you.</li><li><strong>24/7 Support:</strong> Our dedicated support team is available around the clock to assist you with any questions or issues you may encounter.</li></ul><p>CloudStorage is more than just a cloud service; it’s a commitment to keeping your digital life secure and accessible.</p>"
+			"description": "CloudStorage is the ultimate solution for your digital storage needs, offering a seamless blend of security, accessibility, and convenience. With CloudStorage, you can rest assured that your data is protected and available whenever you need it.",
+			"features": {
+				"one": {
+					"title": "Unmatched Security",
+					"description": "Our state-of-the-art encryption ensures that your files are always protected. With end-to-end encryption, your data is secure from the moment you upload it until you access it."
+				},
+				"two": {
+					"title": "Anywhere Access",
+					"description": "Access your files from any device, anywhere in the world. Whether you’re on a phone, tablet, or computer, your data is just a click away."
+				},
+				"three": {
+					"title": "Effortless Sharing",
+					"description": "Share files and folders with colleagues, friends, and family with ease. Set permissions and share links securely, knowing that only the intended recipients can access your data."
+				}
+			}
 		}
 	}
 }

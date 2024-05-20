@@ -96,7 +96,10 @@ export default function Projects() {
 	};
 
 	return (
-		<section className="relative flex flex-col items-center py-28 px-10 bg-slate-900">
+		<section
+			id="projects"
+			className="relative flex flex-col items-center py-28 px-10 bg-slate-900"
+		>
 			<div className="flex flex-col gap-16 items-center max-w-screen-lg">
 				<motion.h1
 					className={`text-2xl lg:text-4xl uppercase ${titleFont.className}`}

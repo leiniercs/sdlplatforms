@@ -25,7 +25,8 @@ export default function Header() {
 
 	const menuItems: NavMenuItem[] = [
 		// @ts-ignore
-		{ name: tHeader("menuitems.home"), href: "/" }
+		{ name: tHeader("menuitems.home"), href: "/" },
+		{ name: tHeader("menuitems.projects"), href: "#projects" }
 	];
 
 	return (

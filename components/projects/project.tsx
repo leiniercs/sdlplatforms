@@ -12,7 +12,7 @@ import {
 import { motion } from "framer-motion";
 import { Poppins } from "next/font/google";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
-//import { Link } from "@/components/common/navigation";
+import { Link } from "@/components/common/navigation";
 
 type CustomComponentProps = {
 	project: ProjectDetails;

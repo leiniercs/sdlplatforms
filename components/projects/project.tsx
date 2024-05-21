@@ -56,11 +56,13 @@ export default function Project({ project }: CustomComponentProps) {
 	return (
 		<div className="mt-16 w-full flex flex-wrap gap-8 md:flex-nowrap">
 			<div className="flex flex-col gap-8">
-				<motion.div
+				<motion.a
 					className="flex flex-nowrap gap-6 items-center"
 					variants={motionFadeFromBellow}
 					initial="initial"
 					whileInView="animate"
+					href={project.url}
+					target="_blank"
 				>
 					{project.logo && (
 						<motion.div variants={motionFadeFromLeft}>
@@ -80,7 +82,7 @@ export default function Project({ project }: CustomComponentProps) {
 					>
 						{project.name}
 					</motion.h3>
-				</motion.div>
+				</motion.a>
 				{project.cover && (
 					<motion.div
 						className="relative"
@@ -127,7 +129,7 @@ export default function Project({ project }: CustomComponentProps) {
 							<motion.div key={index} variants={motionFadeFromBellow}>
 								<Card
 									classNames={{
-										base: "bg-slate-800 h-full",
+										base: "bg-slate-800 h-full p-2",
 										header: "text-lg lg:text-xl font-semibold",
 										body: "text-base lg:text-lg"
 									}}

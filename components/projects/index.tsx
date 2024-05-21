@@ -125,7 +125,7 @@ export default function Projects() {
 					)}
 				</div>
 				{projects.upcoming && (
-					<div className="w-full">
+					<div className="w-full mt-4">
 						<motion.h2
 							className={`text-xl lg:text-3xl uppercase ${titleFont.className}`}
 							variants={motionFadeFromBellow}

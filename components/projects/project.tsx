@@ -117,7 +117,7 @@ export default function Project({ project }: CustomComponentProps) {
 					{tProjects("keyfeatures")}:
 				</motion.h2>
 				<motion.div
-					className="grid grid-flow-col grid-cols-1 gap-6 lg:grid-flow-row lg:grid-cols-3"
+					className="grid grid-cols-1 gap-6 lg:grid-cols-3"
 					variants={motionFadeFromBellow}
 					initial="initial"
 					whileInView="animate"

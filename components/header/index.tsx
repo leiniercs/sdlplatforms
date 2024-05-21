@@ -25,9 +25,9 @@ export default function Header() {
 	const tHeader = useTranslations("header");
 
 	const menuItems: NavMenuItem[] = [
-		// @ts-ignore
 		{ name: tHeader("menuitems.home"), href: "/" },
-		{ name: tHeader("menuitems.projects"), href: "#projects" }
+		{ name: tHeader("menuitems.projects"), href: "#projects" },
+		{ name: tHeader("menuitems.contact"), href: "#contact" }
 	];
 
 	return (

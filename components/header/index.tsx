@@ -15,6 +15,7 @@ import {
 } from "@nextui-org/react";
 import { Rubik } from "next/font/google";
 import { Link, usePathname } from "@/components/common/navigation";
+import NavItem from "@/components/header/navitem";
 
 const itemFont = Rubik({ subsets: ["latin"], weight: "500", preload: true });
 
@@ -34,6 +35,7 @@ export default function Header() {
 			classNames={{ item: itemFont.className }}
 			isBlurred
 			isBordered
+			isMenuOpen={isMenuOpen}
 			onMenuOpenChange={setIsMenuOpen}
 		>
 			<NavbarContent justify="start">
@@ -76,14 +78,12 @@ export default function Header() {
 
 						return (
 							<NavbarItem key={index} isActive={isActive}>
-								<UILink
-									as={Link}
-									href={item.href}
-									color={isActive ? "primary" : "foreground"}
-									aria-current={isActive ? "page" : undefined}
-								>
-									{item.name}
-								</UILink>
+								<NavItem
+									item={item}
+									isActive={isActive}
+									setIsMenuOpen={setIsMenuOpen}
+									collapsedMenu={false}
+								/>
 							</NavbarItem>
 						);
 					})}
@@ -96,15 +96,12 @@ export default function Header() {
 
 					return (
 						<NavbarMenuItem key={index}>
-							<UILink
-								className="w-full"
-								href={item.href}
-								color={isActive ? "primary" : "foreground"}
-								size="lg"
-								aria-current={isActive ? "page" : undefined}
-							>
-								{item.name}
-							</UILink>
+							<NavItem
+								item={item}
+								isActive={isActive}
+								setIsMenuOpen={setIsMenuOpen}
+								collapsedMenu={true}
+							/>
 						</NavbarMenuItem>
 					);
 				})}

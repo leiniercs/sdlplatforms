@@ -103,7 +103,6 @@ export default function Project({ project }: CustomComponentProps) {
 					</motion.div>
 				)}
 				<motion.p
-					className="text-base lg:text-xl"
 					variants={motionFadeFromBellow}
 					initial="initial"
 					whileInView="animate"
@@ -111,7 +110,6 @@ export default function Project({ project }: CustomComponentProps) {
 					{project.description}
 				</motion.p>
 				<motion.h2
-					className="text-base lg:text-xl"
 					variants={motionFadeFromBellow}
 					initial="initial"
 					whileInView="animate"
@@ -130,8 +128,7 @@ export default function Project({ project }: CustomComponentProps) {
 								<Card
 									classNames={{
 										base: "bg-slate-800 h-full p-2",
-										header: "text-lg lg:text-xl font-semibold",
-										body: "text-base lg:text-lg"
+										header: "text-lg lg:text-xl font-semibold"
 									}}
 								>
 									<CardHeader>{feature.title}</CardHeader>

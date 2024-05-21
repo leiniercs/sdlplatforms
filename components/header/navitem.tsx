@@ -1,7 +1,7 @@
 "use client";
 import type { NavMenuItem } from "@/types/menu";
 import { Link as UILink } from "@nextui-org/react";
-import { Link, usePathname } from "@/components/common/navigation";
+import { Link } from "@/components/common/navigation";
 
 type CustomProps = {
 	item: NavMenuItem;

@@ -10,10 +10,13 @@
 		"openMenu": "Open menu",
 		"closeMenu": "Close menu",
 		"logo": "Logo",
-		"menuitems": { "home": "Home", "projects": "Projects" }
+		"menuitems": {
+			"home": "Home",
+			"projects": "Projects",
+			"contact": "Contact"
+		}
 	},
 	"hero": {},
-
 	"features": {
 		"aboutus": {
 			"title": "About us",
@@ -97,5 +100,15 @@
 				}
 			}
 		}
+	},
+	"contact": {
+		"address": "Address",
+		"emirate": "Emirate",
+		"country": "Country",
+		"sendusmessage": "Send us a message",
+		"name:": { "title": "Name", "placeholder": "Enter your name" },
+		"email:": { "title": "Email", "placeholder": "Enter your email" },
+		"message:": { "title": "Message", "placeholder": "Enter the message" },
+		"send": "Send"
 	}
 }

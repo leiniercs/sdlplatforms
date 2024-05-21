@@ -49,24 +49,24 @@
 			"features": {
 				"one": {
 					"title": "Visibilidad y Alcance",
-					"description": "Ofrecemos contenido de calidad a un público amplio y diverso de personas interesadas en la creación de sitios web. Al publicar tus plantillas en el mercado, puedes aumentar tu visibilidad y llegar a un público más amplio, generando más descargas y, por lo tanto, más ingresos."
+					"description": "Ofrecemos contenido de calidad a una audiencia amplia y diversa de personas interesadas en la creación de sitios web."
 				},
 				"two": {
 					"title": "Comunidad y Retroalimentación",
-					"description": "Conviértete en parte de una comunidad activa de diseñadores y desarrolladores, recibiendo valiosos comentarios que harán que las plantillas mejoren en función de las necesidades de la comunidad. Además, los comentarios positivos de los usuarios aumentarán la reputación y atraerán más clientes."
+					"description": "Todos pueden formar parte de una comunidad activa de diseñadores y desarrolladores."
 				},
 				"three": {
 					"title": "Modelo de Negocio Sostenible",
-					"description": "Este mercado ofrece un modelo de negocio sostenible para los creadores. Tenemos una estructura de ingresos compartida que te motiva a crear productos de alta calidad a largo plazo, lo que genera grandes beneficios para todos."
+					"description": "Tenemos una estructura de ingresos compartidos que motiva a los creadores a crear plantillas de sitios web de alta calidad."
 				}
 			}
 		},
 		"globalvpn": {
 			"name": "GlobalVPN",
-			"description": "GlobalVPN es tu mejor opción para la privacidad en línea y el acceso irrestricto a Internet. Con servidores en más de 50 países, nuestro servicio VPN garantiza que tus actividades en línea sean seguras, privadas y libres de restricciones geográficas.",
+			"description": "GlobalVPN es tu mejor opción para la privacidad en línea y el acceso a Internet sin restricciones. Con servidores en más de 50 países, nuestro servicio VPN garantiza que tus actividades en línea sean seguras, privadas y libres de restricciones geográficas.",
 			"features": {
 				"one": {
-					"title": "Red Mundial de Servidores",
+					"title": "Red de Servidores en Todo el Mundo",
 					"description": "Disfruta de una amplia selección de servidores en todo el mundo, lo que te permite conectarte desde prácticamente cualquier lugar a cualquier lugar."
 				},
 				"two": {
@@ -75,7 +75,7 @@
 				},
 				"three": {
 					"title": "Política de No Registro",
-					"description": "Tu privacidad es nuestra prioridad. No rastreamos ni almacenamos ninguna de tus actividades en línea, brindándote total tranquilidad."
+					"description": "Tu privacidad es nuestra prioridad. No rastrea ni almacena ninguna de tus actividades en línea, lo que te da total tranquilidad."
 				}
 			}
 		},
@@ -84,16 +84,16 @@
 			"description": "CloudStorage es la solución definitiva para tus necesidades de almacenamiento digital, ofreciendo una combinación perfecta de seguridad, accesibilidad y comodidad. Con CloudStorage, puedes estar seguro de que tus datos están protegidos y disponibles cuando los necesites.",
 			"features": {
 				"one": {
-					"title": "Seguridad Incomparable",
-					"description": "Nuestro cifrado de última generación garantiza que tus archivos estén siempre protegidos. Con el cifrado de extremo a extremo, tus datos están seguros desde el momento en que los cargas hasta que accedes a ellos."
+					"title": "Seguridad Inigualable",
+					"description": "Nuestro cifrado de vanguardia garantiza que tus archivos estén siempre protegidos. Con el cifrado de extremo a extremo, tus datos están seguros desde el momento en que los subes hasta que accedes a ellos."
 				},
 				"two": {
-					"title": "Acceso desde Cualquier Lugar",
-					"description": "Accede a tus archivos desde cualquier dispositivo, en cualquier lugar del mundo. Ya sea que estés en un teléfono, tableta o computadora, tus datos están a solo un clic de distancia."
+					"title": "Acceso en Cualquier Lugar",
+					"description": "Accede a tus archivos desde cualquier dispositivo, en cualquier parte del mundo. Ya sea que estés en un teléfono, tableta o computadora, tus datos están a un clic de distancia."
 				},
 				"three": {
 					"title": "Compartición Sin Esfuerzo",
-					"description": "Comparte archivos y carpetas con colegas, amigos y familiares con facilidad. Configura permisos y comparte enlaces de forma segura, sabiendo que solo los destinatarios previstos pueden acceder a tus datos."
+					"description": "Comparte archivos y carpetas con colegas, amigos y familiares con facilidad. Establece permisos y comparte enlaces de forma segura, sabiendo que solo los destinatarios previstos pueden acceder a tus datos."
 				}
 			}
 		}

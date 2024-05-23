@@ -42,8 +42,8 @@
 	"whotrustus": { "title": "Confiado por líderes de la industria" },
 	"projects": {
 		"title": "Proyectos",
-		"active": "Activos",
-		"upcoming": "Próximos",
+		"active": "Proyectos Activos",
+		"upcoming": "Próximos Proyectos",
 		"keyfeatures": "Características Clave",
 		"gotoproject": "Ir al proyecto",
 		"thimsmarket": {

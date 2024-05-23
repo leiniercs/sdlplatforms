@@ -42,8 +42,8 @@
 	"whotrustus": { "title": "Trusted by industry leaders" },
 	"projects": {
 		"title": "Projects",
-		"active": "Active",
-		"upcoming": "Upcoming",
+		"active": "Active Projects",
+		"upcoming": "Upcoming Projects",
 		"keyfeatures": "Key Features",
 		"gotoproject": "Go to the project",
 		"thimsmarket": {

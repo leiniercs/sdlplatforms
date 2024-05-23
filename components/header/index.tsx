@@ -72,7 +72,7 @@ export default function Header() {
 				</NavbarBrand>
 			</NavbarContent>
 
-			<NavbarContent justify="end">
+			<NavbarContent className="hidden sm:flex" justify="end">
 				{menuItems.map((item: NavMenuItem, index: number) => {
 					const isActive: boolean = currentPathname === item.href;
 
@@ -88,6 +88,7 @@ export default function Header() {
 					);
 				})}
 			</NavbarContent>
+			<NavbarContent className="sm:hidden" justify="end"></NavbarContent>
 
 			<NavbarMenu>
 				{menuItems.map((item: NavMenuItem, index) => {

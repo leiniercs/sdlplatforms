@@ -35,6 +35,7 @@ export default function Header() {
 			classNames={{ item: itemFont.className }}
 			isBlurred
 			isBordered
+			shouldHideOnScroll
 			isMenuOpen={isMenuOpen}
 			onMenuOpenChange={setIsMenuOpen}
 		>
@@ -46,7 +47,7 @@ export default function Header() {
 					}
 					className="sm:hidden"
 				/>
-				<NavbarBrand className="hidden sm:inline-block">
+				<NavbarBrand className="hidden sm:inline">
 					<Link href="/">
 						<Image
 							classNames={{ img: "!max-h-[50px] !rounded-none" }}
@@ -72,22 +73,20 @@ export default function Header() {
 			</NavbarContent>
 
 			<NavbarContent justify="end">
-				<div className="hidden sm:flex gap-4">
-					{menuItems.map((item: NavMenuItem, index: number) => {
-						const isActive: boolean = currentPathname === item.href;
+				{menuItems.map((item: NavMenuItem, index: number) => {
+					const isActive: boolean = currentPathname === item.href;
 
-						return (
-							<NavbarItem key={index} isActive={isActive}>
-								<NavItem
-									item={item}
-									isActive={isActive}
-									setIsMenuOpen={setIsMenuOpen}
-									collapsedMenu={false}
-								/>
-							</NavbarItem>
-						);
-					})}
-				</div>
+					return (
+						<NavbarItem key={index} isActive={isActive}>
+							<NavItem
+								item={item}
+								isActive={isActive}
+								setIsMenuOpen={setIsMenuOpen}
+								collapsedMenu={false}
+							/>
+						</NavbarItem>
+					);
+				})}
 			</NavbarContent>
 
 			<NavbarMenu>

@@ -1,10 +1,14 @@
 import type { ResolvingMetadata } from "next";
 import { ReactNode } from "react";
 import { Metadata } from "next";
-import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
-import { useMessages } from "next-intl";
+import {
+	getMessages,
+	getTranslations,
+	unstable_setRequestLocale
+} from "next-intl/server";
 import { Noto_Sans } from "next/font/google";
 import Providers from "@/components/providers";
+import Header from "@/components/header";
 import "./globals.css";
 
 const globalFont = Noto_Sans({
@@ -44,17 +48,18 @@ export async function generateMetadata(
 	};
 }
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
 	children,
 	params: { locale }
 }: Readonly<CustomLayoutProps>) {
 	unstable_setRequestLocale(locale);
-	const messages = useMessages();
+	const messages = await getMessages({ locale });
 
 	return (
 		<html lang={locale} className={`dark ${globalFont.className}`}>
-			<body>
+			<body className="text-base lg:text-lg">
 				<Providers locale={locale} messages={messages}>
+					<Header />
 					{children}
 				</Providers>
 			</body>

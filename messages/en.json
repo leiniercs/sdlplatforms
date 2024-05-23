@@ -106,9 +106,12 @@
 		"emirate": "Emirate",
 		"country": "Country",
 		"sendusmessage": "Send us a message",
-		"name:": { "title": "Name", "placeholder": "Enter your name" },
-		"email:": { "title": "Email", "placeholder": "Enter your email" },
-		"message:": { "title": "Message", "placeholder": "Enter the message" },
+		"name": { "title": "Name", "placeholder": "Enter your name" },
+		"email": { "title": "Email", "placeholder": "Enter your email" },
+		"message": {
+			"title": "Message",
+			"placeholder": "Enter the message (4096 characters maximum)"
+		},
 		"send": "Send"
 	}
 }

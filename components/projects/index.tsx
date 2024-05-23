@@ -96,52 +96,58 @@ export default function Projects() {
 	};
 
 	return (
-		<section
-			id="projects"
-			className="relative flex flex-col items-center py-28 px-10 bg-slate-900"
-		>
-			<div className="flex flex-col gap-16 items-center max-w-screen-lg">
-				<motion.h1
-					className={`text-2xl lg:text-4xl uppercase ${titleFont.className}`}
-					variants={motionFadeFromBellow}
-					initial="initial"
-					whileInView="animate"
-				>
-					{tProjects("title")}
-				</motion.h1>
-				<div className="w-full">
-					<motion.h2
-						className={`text-xl lg:text-3xl uppercase ${titleFont.className}`}
+		<>
+			<section
+				id="projects"
+				className="relative flex flex-col items-center py-28 px-10 bg-slate-900"
+			>
+				<div className="flex flex-col gap-16 items-center max-w-screen-lg">
+					<motion.h1
+						className={`text-2xl lg:text-4xl uppercase ${titleFont.className}`}
 						variants={motionFadeFromBellow}
 						initial="initial"
 						whileInView="animate"
 					>
 						{tProjects("active")}
-					</motion.h2>
-					{projects.active.map(
-						(project: ProjectDetails, index: number) => (
-							<Project key={index} project={project} />
-						)
-					)}
-				</div>
-				{projects.upcoming && (
-					<div className="w-full mt-4">
-						<motion.h2
-							className={`text-xl lg:text-3xl uppercase ${titleFont.className}`}
-							variants={motionFadeFromBellow}
-							initial="initial"
-							whileInView="animate"
-						>
-							{tProjects("upcoming")}
-						</motion.h2>
-						{projects.upcoming?.map(
+					</motion.h1>
+					<div className="w-full">
+						{projects.active.map(
 							(project: ProjectDetails, index: number) => (
-								<Project key={index} project={project} />
+								<Project
+									key={index}
+									project={project}
+									cardBackgroundColor="bg-slate-800"
+								/>
 							)
 						)}
 					</div>
-				)}
-			</div>
-		</section>
+				</div>
+			</section>
+			<section className="relative flex flex-col items-center py-28 px-10">
+				<div className="flex flex-col gap-16 items-center max-w-screen-lg">
+					<motion.h1
+						className={`text-2xl lg:text-4xl uppercase ${titleFont.className}`}
+						variants={motionFadeFromBellow}
+						initial="initial"
+						whileInView="animate"
+					>
+						{tProjects("upcoming")}
+					</motion.h1>
+					{projects.upcoming && (
+						<div className="w-full">
+							{projects.upcoming?.map(
+								(project: ProjectDetails, index: number) => (
+									<Project
+										key={index}
+										project={project}
+										cardBackgroundColor=""
+									/>
+								)
+							)}
+						</div>
+					)}
+				</div>
+			</section>
+		</>
 	);
 }

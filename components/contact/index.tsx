@@ -1,9 +1,9 @@
 "use client";
 import { useTranslations } from "next-intl";
+import { Button, Input, Textarea } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import { Poppins } from "next/font/google";
 import { contact } from "@/components/common/contact";
-import { Button, Input, Textarea } from "@nextui-org/react";
 
 const titleFont = Poppins({ subsets: ["latin"], weight: "700" });
 
@@ -19,8 +19,8 @@ export default function Contact() {
 			transition: { duration: 0.2, staggerChildren: 0.3 }
 		}
 	};
-	const tHeader = useTranslations("header");
 	const tContact = useTranslations("contact");
+	const tHeader = useTranslations("header");
 
 	return (
 		<section
@@ -75,6 +75,8 @@ export default function Contact() {
 							isRequired
 							isClearable
 							type="name"
+							autoComplete="name"
+							maxLength={256}
 							label={tContact("name.title")}
 							placeholder={tContact("name.placeholder")}
 							variant="faded"
@@ -83,6 +85,8 @@ export default function Contact() {
 							isRequired
 							isClearable
 							type="email"
+							autoComplete="email"
+							maxLength={128}
 							label={tContact("email.title")}
 							placeholder={tContact("email.placeholder")}
 							variant="faded"
@@ -98,7 +102,9 @@ export default function Contact() {
 							variant="faded"
 						/>
 						<div className="flex justify-end">
-							<Button color="primary">{tContact("send")}</Button>
+							<Button color="primary" size="lg" isDisabled>
+								{tContact("send")}
+							</Button>
 						</div>
 					</div>
 				</div>

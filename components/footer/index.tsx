@@ -14,10 +14,7 @@ export default async function Footer() {
 	];
 
 	return (
-		<footer
-			id="footer"
-			className="relative flex flex-col items-center py-28 px-10 bg-slate-900"
-		>
+		<footer className="relative flex flex-col items-center py-28 px-10 bg-slate-900">
 			<div className="flex flex-row flex-wrap gap-16 w-full max-w-screen-lg">
 				<div className="flex flex-col gap-1">
 					<div className="flex flex-nowrap gap-4 items-center">

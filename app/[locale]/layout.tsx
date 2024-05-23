@@ -9,6 +9,7 @@ import {
 import { Noto_Sans } from "next/font/google";
 import Providers from "@/components/providers";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import "./globals.css";
 
 const globalFont = Noto_Sans({
@@ -61,6 +62,7 @@ export default async function LocaleLayout({
 				<Providers locale={locale} messages={messages}>
 					<Header />
 					{children}
+					<Footer />
 				</Providers>
 			</body>
 		</html>

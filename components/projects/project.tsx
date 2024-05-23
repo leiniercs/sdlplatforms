@@ -11,15 +11,19 @@ import {
 } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import { Poppins } from "next/font/google";
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 type CustomComponentProps = {
 	project: ProjectDetails;
+	cardBackgroundColor: string;
 };
 
 const titleFont = Poppins({ subsets: ["latin"], weight: "700" });
 
-export default function Project({ project }: CustomComponentProps) {
+export default function Project({
+	project,
+	cardBackgroundColor
+}: CustomComponentProps) {
 	const tProjects = useTranslations("projects");
 	const motionFadeFromBellow = {
 		initial: {
@@ -127,7 +131,7 @@ export default function Project({ project }: CustomComponentProps) {
 							<motion.div key={index} variants={motionFadeFromBellow}>
 								<Card
 									classNames={{
-										base: "bg-slate-800 h-full p-2",
+										base: `h-full p-2 ${cardBackgroundColor}`,
 										header: "text-lg lg:text-xl font-semibold"
 									}}
 								>
@@ -153,9 +157,7 @@ export default function Project({ project }: CustomComponentProps) {
 							color="primary"
 							size="lg"
 							radius="sm"
-							anchorIcon={
-								<ArrowTopRightOnSquareIcon className="ml-2 w-5 h-5" />
-							}
+							anchorIcon={<FaExternalLinkAlt className="ml-2 w-4 h-4" />}
 							href={project.url}
 						>
 							{tProjects("gotoproject")}

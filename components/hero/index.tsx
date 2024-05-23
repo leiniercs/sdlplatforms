@@ -69,7 +69,7 @@ export default function Hero() {
 	}, [tabs]);
 
 	return (
-		<section className="relative h-dvh overflow-hidden">
+		<section className="relative h-dvh overflow-hidden -mt-16">
 			<div className="ml-6 mt-28 md:pl-14 md:w-2/3 lg:pl-36 lg:mt-48">
 				{tabs.map((tab: Feature, index: number) => (
 					<motion.div

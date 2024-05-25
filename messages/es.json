@@ -112,6 +112,9 @@
 			"title": "Mensaje",
 			"placeholder": "Introduzca el mensaje (4096 caracteres máximo)"
 		},
-		"send": "Enviar"
+		"send": "Enviar",
+		"sendingmessage": "Enviando mensaje...",
+		"messagesent": "Mensaje enviado.",
+		"errorsendingmessage": "Ocurrió un error."
 	}
 }

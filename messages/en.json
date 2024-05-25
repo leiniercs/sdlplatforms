@@ -112,6 +112,9 @@
 			"title": "Message",
 			"placeholder": "Enter the message (4096 characters maximum)"
 		},
-		"send": "Send"
+		"send": "Send",
+		"sendingmessage": "Sending message...",
+		"messagesent": "Message sent.",
+		"errorsendingmessage": "An error ocurred."
 	}
 }

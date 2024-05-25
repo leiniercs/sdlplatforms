@@ -1,13 +1,35 @@
 "use client";
 import { useTranslations } from "next-intl";
-import { Button, Input, Textarea } from "@nextui-org/react";
+import { useCallback, useMemo, useState } from "react";
+import { Button, Input, Spinner, Textarea } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import { Poppins } from "next/font/google";
+import { sendMessage } from "@/components/contact/sendmessage";
 import { contact } from "@/components/common/contact";
+import { FaSkullCrossbones, FaEnvelopeCircleCheck } from "react-icons/fa6";
 
 const titleFont = Poppins({ subsets: ["latin"], weight: "700" });
 
 export default function Contact() {
+	const tContact = useTranslations("contact");
+	const tHeader = useTranslations("header");
+	const [name, setName] = useState<string>("");
+	const [email, setEmail] = useState<string>("");
+	const [message, setMessage] = useState<string>("");
+	const [isSendingMessage, setIsSendingMessage] = useState<boolean>(false);
+	const [iconSubmissionReport, setIconSubmissionReport] =
+		useState<JSX.Element>(<></>);
+	const [submissionReportStyle, setSubmissionReportStyle] =
+		useState<string>("");
+	const [submissionReport, setSubmissionReport] = useState<string>("");
+	let isSendButtonDisabled = useMemo<boolean>(
+		() =>
+			name.trim().length === 0 ||
+			email.trim().length === 0 ||
+			message.trim().length === 0 ||
+			isSendingMessage === true,
+		[name, email, message, isSendingMessage]
+	);
 	const motionFadeFromBellow = {
 		initial: {
 			y: "25%",
@@ -19,8 +41,24 @@ export default function Contact() {
 			transition: { duration: 0.2, staggerChildren: 0.3 }
 		}
 	};
-	const tContact = useTranslations("contact");
-	const tHeader = useTranslations("header");
+
+	const sendContactMessage = useCallback(async () => {
+		try {
+			await sendMessage(name, email, message);
+
+			setIconSubmissionReport(
+				<FaEnvelopeCircleCheck className="text-danger" />
+			);
+			setSubmissionReportStyle("text-success");
+			setSubmissionReport(tContact("messagesent"));
+		} catch (e) {
+			setSubmissionReportStyle("text-danger");
+			setIconSubmissionReport(<FaSkullCrossbones className="text-danger" />);
+			setSubmissionReport(tContact("errorsendingmessage"));
+		} finally {
+			setIsSendingMessage(false);
+		}
+	}, [name, email, message]);
 
 	return (
 		<section
@@ -65,7 +103,7 @@ export default function Contact() {
 							referrerPolicy="no-referrer-when-downgrade"
 						></iframe>
 					</div>
-					<div className="flex flex-col flex-wrap gap-4 w-full pt-16 lg:max-w-[50%] lg:pt-0 lg:pl-10">
+					<form className="flex flex-col flex-wrap gap-4 w-full pt-16 lg:max-w-[50%] lg:pt-0 lg:pl-10">
 						<h1
 							className={`mb-4 text-lg lg:text-2xl uppercase ${titleFont.className}`}
 						>
@@ -80,6 +118,8 @@ export default function Contact() {
 							label={tContact("name.title")}
 							placeholder={tContact("name.placeholder")}
 							variant="faded"
+							value={name}
+							onValueChange={setName}
 						/>
 						<Input
 							isRequired
@@ -90,6 +130,8 @@ export default function Contact() {
 							label={tContact("email.title")}
 							placeholder={tContact("email.placeholder")}
 							variant="faded"
+							value={email}
+							onValueChange={setEmail}
 						/>
 						<Textarea
 							isRequired
@@ -100,13 +142,37 @@ export default function Contact() {
 							label={tContact("message.title")}
 							placeholder={tContact("message.placeholder")}
 							variant="faded"
+							value={message}
+							onValueChange={setMessage}
 						/>
-						<div className="flex justify-end">
-							<Button color="primary" size="lg" isDisabled>
+						<div className="flex justify-between">
+							<div className="flex flex-nowrap gap-3 items-center text-sm">
+								{submissionReport.length > 0 && (
+									<>
+										{iconSubmissionReport}
+										<span className={submissionReportStyle}>
+											{submissionReport}
+										</span>
+									</>
+								)}
+							</div>
+							<Button
+								isDisabled={isSendButtonDisabled}
+								type="submit"
+								color="primary"
+								size="lg"
+								onPress={() => {
+									setSubmissionReportStyle("");
+									setIconSubmissionReport(<Spinner size="sm" />);
+									setSubmissionReport(tContact("sendingmessage"));
+									setIsSendingMessage(true);
+									sendContactMessage();
+								}}
+							>
 								{tContact("send")}
 							</Button>
 						</div>
-					</div>
+					</form>
 				</div>
 			</div>
 		</section>

@@ -97,7 +97,7 @@ export default function Project({
 						<Image
 							classNames={{
 								wrapper: "!max-w-none",
-								img: "w-full max-h-[300px] object-cover bg-no-repeat object-top"
+								img: "w-full max-h-[350px] object-cover bg-no-repeat object-top"
 							}}
 							isZoomed
 							radius="lg"

@@ -47,7 +47,7 @@ export default function Contact() {
 			await sendMessage(name, email, message);
 
 			setIconSubmissionReport(
-				<FaEnvelopeCircleCheck className="text-danger" />
+				<FaEnvelopeCircleCheck className="text-success" />
 			);
 			setSubmissionReportStyle("text-success");
 			setSubmissionReport(tContact("messagesent"));

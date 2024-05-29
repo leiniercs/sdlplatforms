@@ -55,7 +55,8 @@ export default function Projects() {
 						title: tProjects("sdlvpn.features.three.title"),
 						description: tProjects("sdlvpn.features.three.description")
 					}
-				]
+				],
+				url: "https://www.sdlvpn.com"
 			},
 			{
 				key: "cloudstorage",

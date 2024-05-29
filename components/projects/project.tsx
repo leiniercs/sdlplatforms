@@ -72,9 +72,9 @@ export default function Project({
 						<motion.div variants={motionFadeFromLeft}>
 							<Image
 								classNames={{
-									img: "h-[64px]"
+									img: "max-w-[64px] max-h-[64px]"
 								}}
-								radius="lg"
+								radius="none"
 								src={`/images/logo/${project.logo}`}
 								alt={project.name}
 							/>

@@ -64,9 +64,9 @@
 				}
 			}
 		},
-		"globalvpn": {
-			"name": "GlobalVPN",
-			"description": "GlobalVPN is your premier choice for online privacy and unrestricted internet access. With servers in over 50 countries, our VPN service ensures that your online activities are secure, private, and free from geographical restrictions.",
+		"sdlvpn": {
+			"name": "SDL VPN",
+			"description": "SDL VPN is your premier choice for online privacy and unrestricted internet access. With servers in over 50 countries, our VPN service ensures that your online activities are secure, private, and free from geographical restrictions.",
 			"features": {
 				"one": {
 					"title": "Worldwide Server Network",

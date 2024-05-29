@@ -64,9 +64,9 @@
 				}
 			}
 		},
-		"globalvpn": {
-			"name": "GlobalVPN",
-			"description": "GlobalVPN es tu mejor opción para la privacidad en línea y el acceso a Internet sin restricciones. Con servidores en más de 50 países, nuestro servicio VPN garantiza que tus actividades en línea sean seguras, privadas y libres de restricciones geográficas.",
+		"sdlvpn": {
+			"name": "SDL VPN",
+			"description": "SDL VPN es tu mejor opción para la privacidad en línea y el acceso a Internet sin restricciones. Con servidores en más de 50 países, nuestro servicio VPN garantiza que tus actividades en línea sean seguras, privadas y libres de restricciones geográficas.",
 			"features": {
 				"one": {
 					"title": "Red de Servidores en Todo el Mundo",

@@ -38,6 +38,26 @@ export default function Projects() {
 		],
 		upcoming: [
 			{
+				key: "sdlvpn",
+				name: "SDL VPN",
+				logo: "sdlvpn.svg",
+				description: tProjects("sdlvpn.description"),
+				features: [
+					{
+						title: tProjects("sdlvpn.features.one.title"),
+						description: tProjects("sdlvpn.features.one.description")
+					},
+					{
+						title: tProjects("sdlvpn.features.two.title"),
+						description: tProjects("sdlvpn.features.two.description")
+					},
+					{
+						title: tProjects("sdlvpn.features.three.title"),
+						description: tProjects("sdlvpn.features.three.description")
+					}
+				]
+			},
+			{
 				key: "cloudstorage",
 				name: "Cloud Storage",
 				description: tProjects("cloudstorage.description"),
@@ -59,25 +79,6 @@ export default function Projects() {
 						description: tProjects(
 							"cloudstorage.features.three.description"
 						)
-					}
-				]
-			},
-			{
-				key: "globalvpn",
-				name: "Global VPN",
-				description: tProjects("globalvpn.description"),
-				features: [
-					{
-						title: tProjects("globalvpn.features.one.title"),
-						description: tProjects("globalvpn.features.one.description")
-					},
-					{
-						title: tProjects("globalvpn.features.two.title"),
-						description: tProjects("globalvpn.features.two.description")
-					},
-					{
-						title: tProjects("globalvpn.features.three.title"),
-						description: tProjects("globalvpn.features.three.description")
 					}
 				]
 			}

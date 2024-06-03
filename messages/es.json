@@ -64,24 +64,6 @@
 				}
 			}
 		},
-		"sdlvpn": {
-			"name": "SDL VPN",
-			"description": "SDL VPN es tu mejor opción para la privacidad en línea y el acceso a Internet sin restricciones. Con servidores en más de 50 países, nuestro servicio VPN garantiza que tus actividades en línea sean seguras, privadas y libres de restricciones geográficas.",
-			"features": {
-				"one": {
-					"title": "Red de Servidores en Todo el Mundo",
-					"description": "Disfruta de una amplia selección de servidores en todo el mundo, lo que te permite conectarte desde prácticamente cualquier lugar a cualquier lugar."
-				},
-				"two": {
-					"title": "Cifrado de Grado Militar",
-					"description": "Utilizamos los protocolos de cifrado más fuertes para proteger tus datos, asegurando que tu presencia en línea esté protegida de miradas indiscretas."
-				},
-				"three": {
-					"title": "Política de No Registro",
-					"description": "Tu privacidad es nuestra prioridad. No rastrea ni almacena ninguna de tus actividades en línea, lo que te da total tranquilidad."
-				}
-			}
-		},
 		"cloudstorage": {
 			"name": "CloudStorage",
 			"description": "CloudStorage es la solución definitiva para tus necesidades de almacenamiento digital, ofreciendo una combinación perfecta de seguridad, accesibilidad y comodidad. Con CloudStorage, puedes estar seguro de que tus datos están protegidos y disponibles cuando los necesites.",

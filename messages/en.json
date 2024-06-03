@@ -64,24 +64,6 @@
 				}
 			}
 		},
-		"sdlvpn": {
-			"name": "SDL VPN",
-			"description": "SDL VPN is your premier choice for online privacy and unrestricted internet access. With servers in over 50 countries, our VPN service ensures that your online activities are secure, private, and free from geographical restrictions.",
-			"features": {
-				"one": {
-					"title": "Worldwide Server Network",
-					"description": "Enjoy a vast selection of servers across the globe, allowing you to connect from virtually anywhere to anywhere."
-				},
-				"two": {
-					"title": "Military-Grade Encryption",
-					"description": "We use the strongest encryption protocols to protect your data, ensuring that your online presence is shielded from prying eyes."
-				},
-				"three": {
-					"title": "No Logs Policy",
-					"description": "Your privacy is our priority. We do not track or store any of your online activities, giving you complete peace of mind."
-				}
-			}
-		},
 		"cloudstorage": {
 			"name": "CloudStorage",
 			"description": "CloudStorage is the ultimate solution for your digital storage needs, offering a seamless blend of security, accessibility, and convenience. With CloudStorage, you can rest assured that your data is protected and available whenever you need it.",

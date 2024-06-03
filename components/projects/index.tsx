@@ -38,27 +38,6 @@ export default function Projects() {
 		],
 		upcoming: [
 			{
-				key: "sdlvpn",
-				name: "SDL VPN",
-				logo: "sdlvpn.svg",
-				description: tProjects("sdlvpn.description"),
-				features: [
-					{
-						title: tProjects("sdlvpn.features.one.title"),
-						description: tProjects("sdlvpn.features.one.description")
-					},
-					{
-						title: tProjects("sdlvpn.features.two.title"),
-						description: tProjects("sdlvpn.features.two.description")
-					},
-					{
-						title: tProjects("sdlvpn.features.three.title"),
-						description: tProjects("sdlvpn.features.three.description")
-					}
-				],
-				url: "https://www.sdlvpn.com"
-			},
-			{
 				key: "cloudstorage",
 				name: "Cloud Storage",
 				description: tProjects("cloudstorage.description"),

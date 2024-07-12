@@ -7,10 +7,16 @@ import Link from "@/components/footer/link";
 
 export default async function Footer() {
 	const tHeader = await getTranslations("header");
-	const menuItems: NavMenuItem[] = [
+	const tFooter = await getTranslations("footer");
+	const menuItemsCompany: NavMenuItem[] = [
 		{ name: tHeader("menuitems.home"), href: "/" },
 		{ name: tHeader("menuitems.projects"), href: "#projects" },
 		{ name: tHeader("menuitems.contact"), href: "#contact" }
+	];
+	const menuItemsLegal: NavMenuItem[] = [
+		{ name: tFooter("legal.terms"), href: "/terms" },
+		{ name: tFooter("legal.privacy"), href: "/privacy" },
+		{ name: tFooter("legal.refunds"), href: "/refunds" }
 	];
 
 	return (
@@ -26,8 +32,10 @@ export default async function Footer() {
 						<span className="font-semibold">SDL Platforms</span>
 					</div>
 					<span className="mt-6">{contact.address}</span>
-					<span>{contact.emirate}</span>
-					<span>{contact.country}</span>
+					<span>
+						P.O. Box {contact.pobox}, {contact.emirate}, {contact.country}
+						.
+					</span>
 					<div className="flex flex-nowrap gap-4 mt-10">
 						{contact.socialMedia.map(
 							(socialMedia: SocialMediaDetails, index: number) => (
@@ -45,7 +53,18 @@ export default async function Footer() {
 				<Divider className="hidden lg:inline" orientation="vertical" />
 				<Divider className="inline lg:hidden" orientation="horizontal" />
 				<div className="flex flex-col gap-3">
-					{menuItems.map((item: NavMenuItem, index: number) => (
+					<span className="uppercase font-semibold">
+						{tFooter("company")}
+					</span>
+					{menuItemsCompany.map((item: NavMenuItem, index: number) => (
+						<Link key={index} item={item} />
+					))}
+				</div>
+				<div className="flex flex-col gap-3">
+					<span className="uppercase font-semibold">
+						{tFooter("legal.title")}
+					</span>
+					{menuItemsLegal.map((item: NavMenuItem, index: number) => (
 						<Link key={index} item={item} />
 					))}
 				</div>

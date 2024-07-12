@@ -9,9 +9,13 @@ import {
 } from "react-icons/fa6";
 
 export const contact: ContactDetails = {
+	company: "SDL Platforms FZCO",
 	address: "Building A1, Dubai Digital Park, Dubai Silicon Oasis",
+	pobox: "342001",
 	emirate: "Dubai",
 	country: "United Arab Emirates",
+	email: "contact@sdlplatforms.com",
+	phone: "+971 (4) 228-5285",
 	socialMedia: [
 		{
 			icon: FaLinkedin,
@@ -25,5 +29,7 @@ export const contact: ContactDetails = {
 			icon: FaWhatsapp,
 			url: "https://chat.whatsapp.com/DGWzyx97KwaC4x6rRvQ59W"
 		}
-	]
+	],
+	tradeLicenseNumber: "44236",
+	taxRegistrationNumber: "104457494300001"
 };

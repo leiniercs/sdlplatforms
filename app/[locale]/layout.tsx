@@ -6,16 +6,10 @@ import {
 	getTranslations,
 	unstable_setRequestLocale
 } from "next-intl/server";
-import { Noto_Sans } from "next/font/google";
 import Providers from "@/components/providers";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import "./globals.css";
-
-const globalFont = Noto_Sans({
-	subsets: ["latin"],
-	preload: true
-});
 
 type CustomMetadataProps = {
 	params: { locale: string };
@@ -57,14 +51,12 @@ export default async function LocaleLayout({
 	const messages = await getMessages({ locale });
 
 	return (
-		<html lang={locale} className={`dark ${globalFont.className}`}>
-			<body className="text-base lg:text-lg">
-				<Providers locale={locale} messages={messages}>
-					<Header />
-					{children}
-					<Footer />
-				</Providers>
-			</body>
-		</html>
+		<>
+			<Providers locale={locale} messages={messages}>
+				<Header />
+				{children}
+				<Footer />
+			</Providers>
+		</>
 	);
 }

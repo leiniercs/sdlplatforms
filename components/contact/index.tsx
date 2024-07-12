@@ -77,23 +77,17 @@ export default function Contact() {
 
 				<div className="w-full flex flex-row flex-wrap">
 					<div className="flex flex-col gap-4 w-full lg:max-w-[50%]">
-						<div className="flex flex-col lg:flex-row flex-wrap lg:flex-nowrap gap-1">
-							<span className="font-semibold">
-								{tContact("address")}:
-							</span>
+						<h1
+							className={`mb-4 text-lg lg:text-2xl uppercase ${titleFont.className}`}
+						>
+							{tContact("address")}
+						</h1>
+						<div className="flex flex-col gap-1">
 							<span>{contact.address}</span>
-						</div>
-						<div className="flex flex-col lg:flex-row flex-wrap lg:flex-nowrap gap-1">
-							<span className="font-semibold">
-								{tContact("emirate")}:
+							<span>
+								P.O. Box {contact.pobox}, {contact.emirate},{" "}
+								{contact.country}.
 							</span>
-							<span>{contact.emirate}</span>
-						</div>
-						<div className="flex flex-col lg:flex-row flex-wrap lg:flex-nowrap gap-1">
-							<span className="font-semibold">
-								{tContact("country")}:
-							</span>
-							<span>{contact.country}</span>
 						</div>
 						<iframe
 							className="w-full min-h-80 mt-4"

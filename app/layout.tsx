@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
+import { Noto_Sans } from "next/font/google";
 
 type CustomLayoutProps = {
 	children: ReactNode;
 };
+
+const globalFont = Noto_Sans({
+	subsets: ["latin"],
+	preload: true
+});
 
 export async function generateMetadata(): Promise<Metadata> {
 	const t = await getTranslations({ locale: "en", namespace: "metadata" });
@@ -57,5 +63,9 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function RootLayout({ children }: Readonly<CustomLayoutProps>) {
-	return children;
+	return (
+		<html className={`dark ${globalFont.className}`}>
+			<body className="text-base lg:text-lg">{children}</body>
+		</html>
+	);
 }

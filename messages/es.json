@@ -98,5 +98,17 @@
 		"sendingmessage": "Enviando mensaje...",
 		"messagesent": "Mensaje enviado.",
 		"errorsendingmessage": "Ocurrió un error."
+	},
+	"terms": { "title": "Términos & Condiciones" },
+	"privacy": { "title": "Política de privacidad" },
+	"refunds": { "title": "Política de reembolsos" },
+	"footer": {
+		"company": "Compañía",
+		"legal": {
+			"title": "Legal",
+			"terms": "Términos & Condiciones",
+			"privacy": "Política de privacidad",
+			"refunds": "Política de reembolsos"
+		}
 	}
 }

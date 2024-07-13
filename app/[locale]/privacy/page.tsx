@@ -511,13 +511,14 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 				</p>
 				<p>
 					También recopilamos automáticamente cierta información sobre su
-					interacción con los Servicios ("Datos de uso"). Para hacer esto,
-					podemos utilizar cookies, píxeles y tecnologías similares
-					("Cookies"). Los Datos de uso pueden incluir información sobre
-					cómo accede y utiliza nuestro Sitio y su cuenta, incluida
-					información del dispositivo, información del navegador,
-					información sobre su conexión de red, su dirección IP y otra
-					información relacionada con su interacción con los Servicios.
+					interacción con los Servicios (&quot;Datos de uso&quot;). Para
+					hacer esto, podemos utilizar cookies, píxeles y tecnologías
+					similares (&quot;Cookies&quot;). Los Datos de uso pueden incluir
+					información sobre cómo accede y utiliza nuestro Sitio y su
+					cuenta, incluida información del dispositivo, información del
+					navegador, información sobre su conexión de red, su dirección IP
+					y otra información relacionada con su interacción con los
+					Servicios.
 				</p>
 				<p className="mt-3 font-semibold uppercase">
 					Información que obtenemos de terceros
@@ -638,8 +639,9 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 					En los últimos 12 meses, hemos divulgado las siguientes
 					categorías de información personal e información personal
 					sensible (indicada con *) sobre los usuarios con los fines
-					establecidos en "Cómo recolectamos y usamos tu información
-					personal" y "Cómo divulgamos información personal":
+					establecidos en &quot;Cómo recolectamos y usamos tu información
+					personal&quot; y &quot;Cómo divulgamos información
+					personal&quot;:
 				</p>
 				<p>Categoría Categorías de Destinatarios</p>
 				<ul>
@@ -709,20 +711,20 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 				</p>
 				<p>
 					A partir de la Fecha Efectiva de esta Política de Privacidad, no
-					tenemos conocimiento real de que "compartimos" o "vendemos"
-					(según se definen esos términos en la ley aplicable) información
-					personal de personas menores de 16 años.
+					tenemos conocimiento real de que &quot;compartimos&quot; o
+					&quot;vendemos&quot; (según se definen esos términos en la ley
+					aplicable) información personal de personas menores de 16 años.
 				</p>
 				<p className="mt-3 font-semibold uppercase">
 					Seguridad y Retención de su Información
 				</p>
 				<p>
 					Tenga en cuenta que ninguna medida de seguridad es perfecta o
-					infranqueable, y no podemos garantizar una "seguridad perfecta".
-					Además, cualquier información que nos envíe puede no ser segura
-					durante su transmisión. Recomendamos que no utilice canales
-					inseguros para comunicar información sensible o confidencial a
-					nosotros.
+					infranqueable, y no podemos garantizar una &quot;seguridad
+					perfecta&quot;. Además, cualquier información que nos envíe puede
+					no ser segura durante su transmisión. Recomendamos que no utilice
+					canales inseguros para comunicar información sensible o
+					confidencial a nosotros.
 				</p>
 				<p>
 					El tiempo que conservamos su información personal depende de

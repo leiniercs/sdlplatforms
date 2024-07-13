@@ -58,7 +58,7 @@ export default function Contact() {
 		} finally {
 			setIsSendingMessage(false);
 		}
-	}, [name, email, message]);
+	}, [name, email, message, tContact]);
 
 	return (
 		<section

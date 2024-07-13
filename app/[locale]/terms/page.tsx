@@ -17,22 +17,23 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
 				<p className="mt-3 font-semibold uppercase">OVERVIEW</p>
 				<p>
 					This website is operated by {contact.company}. Throughout the
-					site, the terms “we”, “us” and “our” refer to {contact.company}.
-					{contact.company} offers this website, including all Information,
-					Products and Services available from this site and all Services'
-					websites to you, the user, conditioned upon your acceptance of
-					all terms, conditions, policies and notices stated here.
+					site, the terms &apos;we&apos;, &apos;us&apos; and
+					&apos;our&apos; refer to {contact.company}.{contact.company}{" "}
+					offers this website, including all Information, Products and
+					Services available from this site and all Services&apos; websites
+					to you, the user, conditioned upon your acceptance of all terms,
+					conditions, policies and notices stated here.
 				</p>
 				<p>
 					By visiting our site and/or purchasing a digital product from any
-					of our Services' websites, through the Payment Page , you engage
-					in our “Service” and agree to be bound by the following terms and
-					conditions (“Terms of Service”, “Terms”), including those
-					additional terms and conditions and policies referenced herein
-					and/or available by hyperlink. These Terms of Service apply to
-					all users of the site, including without limitation users who are
-					browsers, vendors, customers, merchants, and/ or contributors of
-					content.
+					of our Services&apos; websites, through the Payment Page , you
+					engage in our &apos;Service&apos; and agree to be bound by the
+					following terms and conditions (&apos;Terms of Service&apos;,
+					&apos;Terms&apos;), including those additional terms and
+					conditions and policies referenced herein and/or available by
+					hyperlink. These Terms of Service apply to all users of the site,
+					including without limitation users who are browsers, vendors,
+					customers, merchants, and/ or contributors of content.
 				</p>
 				<p>
 					Please read these Terms of Service carefully before accessing or
@@ -55,7 +56,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
 					constitutes acceptance of those changes.
 				</p>
 				<p>
-					Our Website and the Services' Websites are hosted on Hetzner
+					Our Website and the Services&apos; Websites are hosted on Hetzner
 					Online. It provide us with the IT infrastructure to run the
 					applications and websites that allows us to promote and sell our
 					Services and Products to you.
@@ -115,8 +116,8 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
 				</p>
 				<p>
 					We are not responsible if information made available on this site
-					or any of our Services' Website are not accurate, complete or
-					current. The material on this site is provided for general
+					or any of our Services&apos; Website are not accurate, complete
+					or current. The material on this site is provided for general
 					information only and should not be relied upon or used as the
 					sole basis for making decisions without consulting primary, more
 					accurate, more complete or more timely sources of information.
@@ -222,18 +223,19 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
 					We are not liable for any harm or damages related to the purchase
 					or use of goods, Services, resources, content, or any other
 					transactions made in connection with any third-party websites.
-					Please review carefully the third-party's policies and practices
-					and make sure you understand them before you engage in any
-					transaction. Complaints, claims, concerns, or questions regarding
-					third-party products should be directed to the third-party.
+					Please review carefully the third-party&apos;s policies and
+					practices and make sure you understand them before you engage in
+					any transaction. Complaints, claims, concerns, or questions
+					regarding third-party products should be directed to the
+					third-party.
 				</p>
 				<p className="mt-3 font-semibold uppercase">
 					SECTION 8 - PERSONAL INFORMATION
 				</p>
 				<p>
 					Your submission of personal information through this website and
-					any of our Services' websites are governed by our Privacy Policy,
-					which can be viewed here:
+					any of our Services&apos; websites are governed by our Privacy
+					Policy, which can be viewed here:
 					<a href="https://www.sdlplatforms.com/en/privacy">
 						https://www.sdlplatforms.com/en/privacy
 					</a>
@@ -308,11 +310,12 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
 					You expressly agree that your use of, or inability to use, any of
 					our Services is at your sole risk. Our Services and all Products
 					delivered to you through the Services are (except as expressly
-					stated by us) provided 'as is' and 'as available' for your use,
-					without any representation, warranties or conditions of any kind,
-					either express or implied, including all implied warranties or
-					conditions of merchantability, merchantable quality, fitness for
-					a particular purpose, durability, title, and non-infringement.
+					stated by us) provided &apos;as is&apos; and &apos;as
+					available&apos; for your use, without any representation,
+					warranties or conditions of any kind, either express or implied,
+					including all implied warranties or conditions of
+					merchantability, merchantable quality, fitness for a particular
+					purpose, durability, title, and non-infringement.
 				</p>
 				<p>
 					In no case shall {contact.company}, our directors, officers,
@@ -460,24 +463,26 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
 				<p className="mt-3 font-semibold uppercase">DESCRIPCIÓN GENERAL</p>
 				<p>
 					Este sitio web es operado por {contact.company}. A lo largo del
-					sitio, los términos “nosotros”, “nos” y “nuestro” se refieren a
-					{contact.company}. {contact.company} ofrece este sitio web,
-					incluyendo toda la Información, Productos y Servicios disponibles
-					en este sitio y en todos los sitios web de Servicios a usted, el
-					usuario, condicionado a su aceptación de todos los términos,
-					condiciones, políticas y avisos declarados aquí.
+					sitio, los términos &apos;nosotros&apos;, &apos;nos&apos; y
+					&apos;nuestro&apos; se refieren a{contact.company}.{" "}
+					{contact.company} ofrece este sitio web, incluyendo toda la
+					Información, Productos y Servicios disponibles en este sitio y en
+					todos los sitios web de Servicios a usted, el usuario,
+					condicionado a su aceptación de todos los términos, condiciones,
+					políticas y avisos declarados aquí.
 				</p>
 				<p>
 					Al visitar nuestro sitio y/o comprar un producto digital de
 					cualquiera de los sitios web de nuestros Servicios, a través de
-					la Página de Pago, usted participa en nuestro “Servicio” y acepta
-					quedar vinculado por los siguientes términos y condiciones
-					(“Términos de Servicio”, “Términos”), incluidos aquellos términos
-					y condiciones adicionales y políticas referenciados aquí y/o
-					disponibles por hipervínculo. Estos Términos de Servicio se
-					aplican a todos los usuarios del sitio, incluidos, sin
-					limitación, los usuarios que son navegadores, vendedores,
-					clientes, comerciantes y/o colaboradores de contenido.
+					la Página de Pago, usted participa en nuestro
+					&apos;Servicio&apos; y acepta quedar vinculado por los siguientes
+					términos y condiciones (&apos;Términos de Servicio&apos;,
+					&apos;Términos&apos;), incluidos aquellos términos y condiciones
+					adicionales y políticas referenciados aquí y/o disponibles por
+					hipervínculo. Estos Términos de Servicio se aplican a todos los
+					usuarios del sitio, incluidos, sin limitación, los usuarios que
+					son navegadores, vendedores, clientes, comerciantes y/o
+					colaboradores de contenido.
 				</p>
 				<p>
 					Por favor, lea estos Términos de Servicio cuidadosamente antes de
@@ -776,12 +781,12 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
 					cualquiera de nuestros Servicios es bajo su propio riesgo.
 					Nuestros Servicios y todos los Productos entregados a través de
 					los Servicios son (excepto como expresamente indicado por
-					nosotros) proporcionados 'tal cual' y 'según estén disponibles'
-					para su uso, sin ninguna representación, garantías o condiciones
-					de ningún tipo, ya sea expresa o implícita, incluyendo todas las
-					garantías o condiciones implícitas de comercialidad, calidad
-					comercial, aptitud para un propósito particular, durabilidad,
-					título, y no violación.
+					nosotros) proporcionados &apos;tal cual&apos; y &apos;según estén
+					disponibles&apos; para su uso, sin ninguna representación,
+					garantías o condiciones de ningún tipo, ya sea expresa o
+					implícita, incluyendo todas las garantías o condiciones
+					implícitas de comercialidad, calidad comercial, aptitud para un
+					propósito particular, durabilidad, título, y no violación.
 				</p>
 				<p>
 					En ningún caso {contact.company}, nuestros directores,

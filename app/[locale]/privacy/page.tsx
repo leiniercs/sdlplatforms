@@ -15,15 +15,16 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 		en: (
 			<>
 				<p>
-					This Privacy Policy describes how {contact.company} (the "Site",
-					"we", "us", or "our") collects, uses, and discloses your personal
+					This Privacy Policy describes how {contact.company} (the
+					&quot;Site&quot;, &quot;we&quot;, &quot;us&quot;, or
+					&quot;our&quot;) collects, uses, and discloses your personal
 					information when you visit, use our services, or make a purchase
-					from sdlplatforms.com (the "Site") or otherwise communicate with
-					us (collectively, the "Services"). For purposes of this Privacy
-					Policy, "you" and "your" means you as the user of the Services,
-					whether you are a customer, website visitor, or another
-					individual whose information we have collected pursuant to this
-					Privacy Policy.
+					from sdlplatforms.com (the &quot;Site&quot;) or otherwise
+					communicate with us (collectively, the &quot;Services&quot;). For
+					purposes of this Privacy Policy, &quot;you&quot; and
+					&quot;your&quot; means you as the user of the Services, whether
+					you are a customer, website visitor, or another individual whose
+					information we have collected pursuant to this Privacy Policy.
 				</p>
 				<p>
 					Please read this Privacy Policy carefully. By using and accessing
@@ -39,8 +40,8 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 					We may update this Privacy Policy from time to time, including to
 					reflect changes to our practices or for other operational, legal,
 					or regulatory reasons. We will post the revised Privacy Policy on
-					the Site, update the "Last updated" date and take any other steps
-					required by applicable law.
+					the Site, update the &quot;Last updated&quot; date and take any
+					other steps required by applicable law.
 				</p>
 				<p className="mt-3 font-semibold uppercase">
 					How We Collect and Use Your Personal Information
@@ -64,10 +65,10 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 				<p>
 					The types of personal information we obtain about you depends on
 					how you interact with our Site and use our Services. When we use
-					the term "personal information", we are referring to information
-					that identifies, relates to, describes or can be associated with
-					you. The following sections describe the categories and specific
-					types of personal information we collect.
+					the term &quot;personal information&quot;, we are referring to
+					information that identifies, relates to, describes or can be
+					associated with you. The following sections describe the
+					categories and specific types of personal information we collect.
 				</p>
 				<p className="mt-3 font-semibold uppercase">
 					Information We Collect Directly from You
@@ -110,13 +111,13 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 				</p>
 				<p>
 					We also automatically collect certain information about your
-					interaction with the Services ("Usage Data"). To do this, we may
-					use cookies, pixels and similar technologies ("Cookies"). Usage
-					Data may include information about how you access and use our
-					Site and your account, including device information, browser
-					information, information about your network connection, your IP
-					address and other information regarding your interaction with the
-					Services.
+					interaction with the Services (&quot;Usage Data&quot;). To do
+					this, we may use cookies, pixels and similar technologies
+					(&quot;Cookies&quot;). Usage Data may include information about
+					how you access and use our Site and your account, including
+					device information, browser information, information about your
+					network connection, your IP address and other information
+					regarding your interaction with the Services.
 				</p>
 				<p className="mt-3 font-semibold uppercase">
 					Information We Obtain from Third Parties
@@ -140,7 +141,7 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 					Any information we obtain from third parties will be treated in
 					accordance with this Privacy Policy. We are not responsible or
 					liable for the accuracy of the information provided to us by
-					third parties and are not responsible for any third party's
+					third parties and are not responsible for any third party&apos;s
 					policies or practices. For more information, see the section
 					below, Third Party Websites and Links.
 				</p>
@@ -228,9 +229,9 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 				<p>
 					We have, in the past 12 months disclosed the following categories
 					of personal information and sensitive personal information
-					(denoted by *) about users for the purposes set out above in "How
-					we Collect and Use your Personal Information" and "How we
-					Disclose Personal Information":
+					(denoted by *) about users for the purposes set out above in
+					&quot;How we Collect and Use your Personal Information&quot; and
+					&quot;How we Disclose Personal Information&quot;:
 				</p>
 				<p>Category Categories of Recipients</p>
 				<ul>
@@ -388,7 +389,7 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 				<p>
 					If we transfer your personal information out of Europe, we will
 					rely on recognized transfer mechanisms like the European
-					Commission's Standard Contractual Clauses, or any equivalent
+					Commission&apos;s Standard Contractual Clauses, or any equivalent
 					contracts issued by the relevant competent authority of the UK,
 					as relevant, unless the data transfer is to a country that has
 					been determined to provide an adequate level of protection.

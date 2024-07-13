@@ -399,12 +399,431 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
 					Should you have any questions about our privacy practices or this
 					Privacy Policy, or if you would like to exercise any of the
 					rights available to you, please call {contact.phone} or email us
-					at {contact.email} or contact us at {contact.address}, P.O. Box{" "}
+					at {contact.email} or contact us at {contact.address}, P.O. Box
 					{contact.pobox}, {contact.emirate}, {contact.country}.
 				</p>
 			</>
 		),
-		es: <></>
+		es: (
+			<>
+				<p>
+					Esta Política de Privacidad describe cómo {contact.company}
+					(el &quot;Sitio&quot;, &quot;nosotros&quot;, &quot;nos&quot; o
+					&quot;nuestro&quot;) recopila, utiliza y divulga su información
+					personal cuando visita, utiliza nuestros servicios o realiza una
+					compra en sdlplatforms.com (el &quot;Sitio&quot;) o se comunica
+					de otra manera con nosotros (colectivamente, los
+					&quot;Servicios&quot;). Para los fines de esta Política de
+					Privacidad, &quot;usted&quot; y &quot;sus&quot; significan usted
+					como usuario de los Servicios, ya sea que sea un cliente,
+					visitante del sitio web u otra persona cuya información hemos
+					recopilado de acuerdo con esta Política de Privacidad.
+				</p>
+				<p>
+					Por favor, lea esta Política de Privacidad cuidadosamente. Al
+					utilizar y acceder a cualquiera de los Servicios, usted acepta la
+					recopilación, uso y divulgación de su información según se
+					describe en esta Política de Privacidad. Si no está de acuerdo
+					con esta Política de Privacidad, por favor no utilice ni acceda a
+					ninguno de los Servicios.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Cambios a Esta Política de Privacidad
+				</p>
+				<p>
+					Podemos actualizar esta Política de Privacidad de vez en cuando,
+					incluyendo para reflejar cambios en nuestras prácticas u otras
+					razones operativas, legales o regulatorias. Publicaremos la
+					Política de Privacidad revisada en el Sitio, actualizaremos la
+					fecha de &quot;Última actualización&quot; y tomaremos cualquier
+					otra medida requerida por la ley aplicable.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Cómo Recopilamos y Usamos su Información Personal
+				</p>
+				<p>
+					Para proporcionar los Servicios, recopilamos y hemos recopilado
+					en los últimos 12 meses información personal sobre usted de una
+					variedad de fuentes, como se describe a continuación. La
+					información que recopilamos y usamos varía dependiendo de cómo
+					interactúe con nosotros.
+				</p>
+				<p>
+					Además de los usos específicos establecidos a continuación,
+					podemos utilizar la información que recopilamos sobre usted para
+					comunicarnos con usted, proporcionar los Servicios, cumplir con
+					cualquier obligación legal aplicable, hacer cumplir cualquier
+					término de servicio aplicable y proteger o defender los
+					Servicios, nuestros derechos y los derechos de nuestros usuarios
+					u otros.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Qué Información Personal Recopilamos
+				</p>
+				<p>
+					Los tipos de información personal que obtenemos sobre usted
+					dependen de cómo interactúe con nuestro Sitio y utilice nuestros
+					Servicios. Cuando usamos el término &quot;información
+					personal&quot;, nos referimos a información que lo identifica, se
+					relaciona con usted, describe o puede asociarse con usted. Las
+					siguientes secciones describen las categorías y tipos específicos
+					de información personal que recopilamos.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Información que Recopilamos Directamente de Usted
+				</p>
+				<p>
+					La información que envía directamente a través de nuestros
+					Servicios puede incluir:
+				</p>
+				<ul>
+					<li>
+						Detalles de contacto básicos, incluyendo su nombre, dirección,
+						número de teléfono, correo electrónico.
+					</li>
+					<li>
+						Información de pedido, incluyendo su nombre, dirección de
+						facturación, confirmación de pago, dirección de correo
+						electrónico, número de teléfono.
+					</li>
+					<li>
+						Información de cuenta, incluyendo su nombre de usuario,
+						contraseña, preguntas de seguridad.
+					</li>
+					<li>
+						Información de compras, incluyendo los artículos que ve,
+						coloca en su carrito o agrega a su lista de deseos.
+					</li>
+					<li>
+						Información de soporte al cliente, incluyendo la información
+						que elige incluir en las comunicaciones con nosotros, por
+						ejemplo, al enviar un mensaje a través de los Servicios.
+					</li>
+				</ul>
+				<p>
+					Algunas funciones de los Servicios pueden requerir que
+					proporcione directamente cierta información sobre usted. Puede
+					optar por no proporcionar esta información, pero hacerlo puede
+					evitar que utilice o acceda a estas funciones.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Información que recopilamos a través de las cookies
+				</p>
+				<p>
+					También recopilamos automáticamente cierta información sobre su
+					interacción con los Servicios ("Datos de uso"). Para hacer esto,
+					podemos utilizar cookies, píxeles y tecnologías similares
+					("Cookies"). Los Datos de uso pueden incluir información sobre
+					cómo accede y utiliza nuestro Sitio y su cuenta, incluida
+					información del dispositivo, información del navegador,
+					información sobre su conexión de red, su dirección IP y otra
+					información relacionada con su interacción con los Servicios.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Información que obtenemos de terceros
+				</p>
+				<p>
+					Finalmente, podemos obtener información sobre usted de terceros,
+					incluidos proveedores y prestadores de servicios que pueden
+					recopilar información en nuestro nombre, como:
+				</p>
+				<ul>
+					<li>
+						Empresas que brindan soporte a nuestro Sitio y Servicios.
+					</li>
+					<li>
+						Nuestros procesadores de pagos, quienes recopilan información
+						de pago (por ejemplo, información de cuenta bancaria, tarjeta
+						de crédito o débito, dirección de facturación) para procesar
+						su pago con el fin de cumplir con sus pedidos y proporcionarle
+						los productos o servicios que ha solicitado, para cumplir con
+						nuestro contrato con usted.
+					</li>
+				</ul>
+				<p>
+					Cualquier información que obtengamos de terceros será tratada de
+					acuerdo con esta Política de privacidad. No somos responsables ni
+					nos hacemos responsables de la precisión de la información
+					proporcionada por terceros y no nos hacemos responsables de las
+					políticas o prácticas de terceros. Para obtener más información,
+					consulte la sección a continuación, Sitios web y enlaces de
+					terceros.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Cómo utilizamos su información personal
+				</p>
+				<p>
+					<strong>Proporcionar productos y servicios.</strong>
+					Utilizamos su información personal para brindarle los Servicios
+					para cumplir con nuestro contrato con usted, incluido el
+					procesamiento de sus pagos, la ejecución de sus pedidos, enviarle
+					notificaciones relacionadas con su cuenta, compras, devoluciones,
+					intercambios u otras transacciones, crear, mantener y gestionar
+					su cuenta, organizar el envío, facilitar devoluciones e
+					intercambios y permitirle publicar reseñas.
+				</p>
+				<p>
+					<strong>Seguridad y prevención de fraudes.</strong>
+					Utilizamos su información personal para detectar, investigar o
+					tomar medidas con respecto a posibles actividades fraudulentas,
+					ilegales o maliciosas. Si elige utilizar los Servicios y
+					registrar una cuenta, usted es responsable de mantener seguros
+					sus credenciales de cuenta. Recomendamos encarecidamente que no
+					comparta su nombre de usuario, contraseña u otros detalles de
+					acceso con otras personas. Si cree que su cuenta ha sido
+					comprometida, contáctenos inmediatamente.
+				</p>
+				<p>
+					<strong>Comunicarnos con usted.</strong> Utilizamos su
+					información personal para proporcionarle soporte al cliente y
+					mejorar nuestros Servicios. Esto está en nuestro interés legítimo
+					para ser receptivos con usted, proporcionarle servicios efectivos
+					y mantener nuestra relación comercial con usted.
+				</p>
+				<p className="mt-3 font-semibold uppercase">Cookies</p>
+				<p>
+					Como muchos sitios web, utilizamos Cookies en nuestro Sitio.
+					Utilizamos Cookies para potenciar y mejorar nuestro Sitio y
+					nuestros Servicios (incluido recordar sus acciones y
+					preferencias). También podemos permitir que terceros y
+					proveedores de servicios utilicen Cookies en nuestro Sitio para
+					adaptar mejor los servicios, productos y publicidad en nuestro
+					Sitio y otros sitios web.
+				</p>
+				La mayoría de los navegadores aceptan automáticamente las Cookies de
+				forma predeterminada, pero puedes elegir configurar tu navegador
+				para eliminar o rechazar las Cookies a través de los controles de tu
+				navegador. Ten en cuenta que eliminar o bloquear las Cookies puede
+				tener un impacto negativo en tu experiencia de usuario y puede hacer
+				que algunos de los Servicios, incluidas ciertas características y
+				funcionalidades generales, no funcionen correctamente o dejen de
+				estar disponibles.
+				<p className="mt-3 font-semibold uppercase">
+					Cómo Divulgamos Información Personal
+				</p>
+				<p>
+					En ciertas circunstancias, podemos divulgar tu información
+					personal a terceros con fines legítimos sujetos a esta Política
+					de Privacidad. Tales circunstancias pueden incluir:
+				</p>
+				<ul>
+					<li>
+						Con proveedores u otros terceros que prestan servicios en
+						nuestro nombre (por ejemplo, gestión de IT, procesamiento de
+						pagos, soporte al cliente, almacenamiento en la nube y
+						cumplimiento de pedidos).
+					</li>
+					<li>
+						Cuando dirijas, solicites u otorgues tu consentimiento para
+						que divulguemos cierta información a terceros, como para
+						enviarte productos o a través de tu uso de widgets de redes
+						sociales o integraciones de inicio de sesión, con tu
+						consentimiento.
+					</li>
+					<li>
+						Con nuestras filiales u otros dentro de nuestro grupo
+						corporativo, en nuestros intereses legítimos para dirigir un
+						negocio exitoso.
+					</li>
+					<li>
+						En relación con una transacción comercial, como una fusión o
+						quiebra, para cumplir con las obligaciones legales aplicables
+						(incluido responder a citaciones, órdenes de registro y
+						solicitudes similares), hacer cumplir cualquier término de
+						servicio aplicable y proteger o defender los Servicios,
+						nuestros derechos y los derechos de nuestros usuarios u otros.
+					</li>
+				</ul>
+				<p>
+					En los últimos 12 meses, hemos divulgado las siguientes
+					categorías de información personal e información personal
+					sensible (indicada con *) sobre los usuarios con los fines
+					establecidos en "Cómo recolectamos y usamos tu información
+					personal" y "Cómo divulgamos información personal":
+				</p>
+				<p>Categoría Categorías de Destinatarios</p>
+				<ul>
+					<li>
+						Identificadores como detalles básicos de contacto y cierta
+						información de pedidos y cuentas
+					</li>
+					<li>
+						Información comercial como información de pedidos, información
+						de compras e información de soporte al cliente
+					</li>
+				</ul>
+				<p>
+					Proveedores y terceros que prestan servicios en nuestro nombre
+					(como proveedores de servicios de Internet, procesadores de
+					pagos, socios de cumplimiento, socios de soporte al cliente)
+				</p>
+				<p>
+					No utilizamos ni divulgamos información personal sensible con el
+					propósito de inferir características sobre ti.
+				</p>
+				<p>
+					Los Servicios pueden permitirte publicar reseñas de productos y
+					otro contenido generado por el usuario. Si optas por enviar
+					contenido generado por el usuario a cualquier área pública de los
+					Servicios, este contenido será público y accesible para
+					cualquiera.
+				</p>
+				<p>
+					No controlamos quién tendrá acceso a la información que elijas
+					hacer disponible para otros, y no podemos garantizar que las
+					partes que tengan acceso a dicha información respetarán tu
+					privacidad o la mantendrán segura. No somos responsables de la
+					privacidad o seguridad de cualquier información que hagas
+					pública, o de la precisión, uso o mal uso de cualquier
+					información que divulges o recibas de terceros.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Sitios Web y Enlaces de Terceros
+				</p>
+				<p>
+					Nuestro Sitio puede proporcionar enlaces a sitios web u otras
+					plataformas en línea operadas por terceros. Si sigues enlaces a
+					sitios no afiliados o controlados por nosotros, debes revisar sus
+					políticas de privacidad y seguridad y otros términos y
+					condiciones. No garantizamos y no somos responsables de la
+					privacidad o seguridad de tales sitios, incluida la precisión,
+					integridad o confiabilidad de la información encontrada en estos
+					sitios. La información que proporcionas en áreas públicas o
+					semipúblicas, incluida la información que compartes en
+					plataformas de redes sociales de terceros, también puede ser
+					visible para otros usuarios de los Servicios y/u usuarios de esas
+					plataformas de terceros sin limitación en cuanto a su uso por
+					nosotros o por un tercero. Nuestra inclusión de tales enlaces no
+					implica, por sí misma, ningún respaldo del contenido en dichas
+					plataformas o de sus propietarios u operadores, excepto según se
+					divulgue en los Servicios.
+				</p>
+				<p>Datos de Niños</p>
+				<p>
+					Los servicios no están destinados a ser utilizados por niños, y
+					no recopilamos intencionalmente ninguna información personal
+					sobre niños. Si usted es el padre o tutor de un niño que nos ha
+					proporcionado su información personal, puede contactarnos
+					utilizando los datos de contacto que se indican a continuación
+					para solicitar que sea eliminada.
+				</p>
+				<p>
+					A partir de la Fecha Efectiva de esta Política de Privacidad, no
+					tenemos conocimiento real de que "compartimos" o "vendemos"
+					(según se definen esos términos en la ley aplicable) información
+					personal de personas menores de 16 años.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Seguridad y Retención de su Información
+				</p>
+				<p>
+					Tenga en cuenta que ninguna medida de seguridad es perfecta o
+					infranqueable, y no podemos garantizar una "seguridad perfecta".
+					Además, cualquier información que nos envíe puede no ser segura
+					durante su transmisión. Recomendamos que no utilice canales
+					inseguros para comunicar información sensible o confidencial a
+					nosotros.
+				</p>
+				<p>
+					El tiempo que conservamos su información personal depende de
+					diferentes factores, como si necesitamos la información para
+					mantener su cuenta, proporcionar los servicios, cumplir con
+					obligaciones legales, resolver disputas o hacer cumplir otros
+					contratos y políticas aplicables.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Sus Derechos y Opciones
+				</p>
+				<p>
+					Dependiendo de dónde viva, es posible que tenga algunos o todos
+					los derechos enumerados a continuación en relación con su
+					información personal. Sin embargo, estos derechos no son
+					absolutos, pueden aplicarse solo en ciertas circunstancias y, en
+					ciertos casos, podemos rechazar su solicitud según lo permita la
+					ley.
+				</p>
+				<ul>
+					<li>
+						<strong>Derecho de Acceso / Conocimiento.</strong> Puede tener
+						derecho a solicitar acceso a la información personal que
+						tenemos sobre usted, incluidos los detalles relacionados con
+						las formas en que usamos y compartimos su información.
+					</li>
+					<li>
+						<strong>Derecho a Borrar.</strong> Puede tener derecho a
+						solicitar que eliminemos la información personal que
+						mantenemos sobre usted.
+					</li>
+					<li>
+						<strong>Derecho a Corregir.</strong> Puede tener derecho a
+						solicitar que corrijamos información personal inexacta que
+						mantenemos sobre usted.
+					</li>
+					<li>
+						<strong>Derecho de Portabilidad.</strong> Puede tener derecho
+						a recibir una copia de la información personal que tenemos
+						sobre usted y solicitar que la transfiramos a un tercero, en
+						ciertas circunstancias y con ciertas excepciones.
+					</li>
+				</ul>
+				<p>
+					Puede ejercer cualquiera de estos derechos donde se indique en
+					nuestro sitio o poniéndose en contacto con nosotros utilizando
+					los datos de contacto proporcionados a continuación.
+				</p>
+				<p>
+					No discriminaremos en su contra por ejercer alguno de estos
+					derechos. Es posible que necesitemos recopilar información de
+					usted para verificar su identidad, como su dirección de correo
+					electrónico o información de la cuenta, antes de proporcionar una
+					respuesta sustantiva a la solicitud. De acuerdo con las leyes
+					aplicables, puede designar un agente autorizado para hacer
+					solicitudes en su nombre para ejercer sus derechos. Antes de
+					aceptar tal solicitud de un agente, requeriremos que el agente
+					proporcione pruebas de que usted los ha autorizado a actuar en su
+					nombre, y es posible que necesitemos que verifique su identidad
+					directamente con nosotros. Responderemos a su solicitud de manera
+					oportuna según lo requerido por la ley aplicable.
+				</p>
+				<p className="mt-3 font-semibold uppercase">Quejas</p>
+				<p>
+					Si tiene quejas sobre cómo procesamos su información personal,
+					contáctenos utilizando los detalles de contacto proporcionados a
+					continuación. Si no está satisfecho con nuestra respuesta a su
+					queja, dependiendo de dónde viva, puede tener derecho a apelar
+					nuestra decisión poniéndose en contacto con nosotros utilizando
+					los detalles de contacto indicados a continuación, o presentar su
+					queja ante su autoridad local de protección de datos.
+				</p>
+				<p className="mt-3 font-semibold uppercase">
+					Usuarios Internacionales
+				</p>
+				<p>
+					Tenga en cuenta que podemos transferir, almacenar y procesar su
+					información personal fuera del país en el que vive, incluidos los
+					Estados Unidos. Su información personal también es procesada por
+					personal y proveedores de servicios de terceros en estos países.
+				</p>
+				<p>
+					Si transferimos su información personal fuera de Europa, nos
+					basaremos en mecanismos de transferencia reconocidos como las
+					Cláusulas Contractuales Estándar de la Comisión Europea, o
+					cualquier contrato equivalente emitido por la autoridad
+					competente relevante del Reino Unido, según corresponda, a menos
+					que la transferencia de datos sea a un país que haya sido
+					determinado como que proporciona un nivel adecuado de protección.
+				</p>
+				<p className="mt-3 font-semibold uppercase">Contacto</p>
+				<p>
+					Si tiene alguna pregunta sobre nuestras prácticas de privacidad o
+					esta Política de Privacidad, o si desea ejercer alguno de los
+					derechos disponibles para usted, llame al {contact.phone} o
+					envíenos un correo electrónico a {contact.email} o contáctenos en{" "}
+					{contact.address}, P.O. Box {contact.pobox}, {contact.emirate},{" "}
+					{contact.country}.
+				</p>
+			</>
+		)
 	};
 
 	return (

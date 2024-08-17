@@ -1,114 +1,114 @@
 {
-	"metadata": {
-		"description": "Matrix company that hosts software and services that have one goal in common: to offer useful and high quality services to the masses.",
-		"keywords": "sdl platforms"
-	},
-	"app": {
-		"title": "SDL Platforms"
-	},
-	"header": {
-		"openMenu": "Open menu",
-		"closeMenu": "Close menu",
-		"logo": "Logo",
-		"menuitems": {
-			"home": "Home",
-			"projects": "Projects",
-			"contact": "Contact"
-		}
-	},
-	"hero": {},
-	"features": {
-		"aboutus": {
-			"title": "About us",
-			"description": "SDL Platforms stands as a beacon at the forefront of technological innovation. Our team embodies a culture fueled by boundless creativity, unwavering collaboration, and an insatiable hunger for excellence."
-		},
-		"innovation": {
-			"title": "Innovation",
-			"description": "We embrace change and continuously seek new ways to improve and evolve. Innovation is in our DNA, and we encourage bold ideas and experimentation."
-		},
-		"empowerment": {
-			"title": "Empowerment",
-			"description": "We empower our users by providing intuitive, user-friendly solutions. Whether it’s through our web, mobile or desktop applications, we aim to make technology accessible to all."
-		},
-		"community": {
-			"title": "Community",
-			"description": "We recognize that our success is intertwined with the success of our community. We actively engage with users, partners, and stakeholders to build lasting relationships."
-		},
-		"sustainability": {
-			"title": "Sustainability",
-			"description": "We are committed to responsible practices. Our digital services prioritize efficiency, security, and environmental consciousness."
-		}
-	},
-	"whotrustus": { "title": "Trusted by industry leaders" },
-	"projects": {
-		"title": "Projects",
-		"active": "Active Projects",
-		"upcoming": "Upcoming Projects",
-		"keyfeatures": "Key Features",
-		"gotoproject": "Go to the project",
-		"thimsmarket": {
-			"name": "Thims Market",
-			"description": "Thims Market is the ultimate marketplace where web designers and developers connect to share, sell, and discover exceptional website templates for NextJS, fostering a thriving community that unlocks new revenue streams and creative opportunities.",
-			"features": {
-				"one": {
-					"title": "Visibility and Reach",
-					"description": "We offer quality content to a wide and diverse audience of people interested in website creation."
-				},
-				"two": {
-					"title": "Community and Feedback",
-					"description": "Everyone can become part of an active community of designers and developers."
-				},
-				"three": {
-					"title": "Sustainable Business Model",
-					"description": "We have a shared income structure that motivates creators to create high-quality website templates."
-				}
-			}
-		},
-		"cloudstorage": {
-			"name": "CloudStorage",
-			"description": "CloudStorage is the ultimate solution for your digital storage needs, offering a seamless blend of security, accessibility, and convenience. With CloudStorage, you can rest assured that your data is protected and available whenever you need it.",
-			"features": {
-				"one": {
-					"title": "Unmatched Security",
-					"description": "Our state-of-the-art encryption ensures that your files are always protected. With end-to-end encryption, your data is secure from the moment you upload it until you access it."
-				},
-				"two": {
-					"title": "Anywhere Access",
-					"description": "Access your files from any device, anywhere in the world. Whether you’re on a phone, tablet, or computer, your data is just a click away."
-				},
-				"three": {
-					"title": "Effortless Sharing",
-					"description": "Share files and folders with colleagues, friends, and family with ease. Set permissions and share links securely, knowing that only the intended recipients can access your data."
-				}
-			}
-		}
-	},
-	"contact": {
-		"address": "Address",
-		"emirate": "Emirate",
-		"country": "Country",
-		"sendusmessage": "Send us a message",
-		"name": { "title": "Name", "placeholder": "Enter your name" },
-		"email": { "title": "Email", "placeholder": "Enter your email" },
-		"message": {
-			"title": "Message",
-			"placeholder": "Enter the message (4096 characters maximum)"
-		},
-		"send": "Send",
-		"sendingmessage": "Sending message...",
-		"messagesent": "Message sent.",
-		"errorsendingmessage": "An error ocurred."
-	},
-	"terms": { "title": "Terms & Conditions" },
-	"privacy": { "title": "Privacy policy" },
-	"refunds": { "title": "Refunds policy" },
-	"footer": {
-		"company": "Company",
-		"legal": {
-			"title": "Legal",
-			"terms": "Terms & Conditions",
-			"privacy": "Privacy policy",
-			"refunds": "Refunds policy"
-		}
-	}
+   "metadata": {
+      "description": "Matrix company that hosts software and services that have one goal in common: to offer useful and high quality services to the masses.",
+      "keywords": "sdl platforms"
+   },
+   "app": {
+      "title": "SDL Platforms"
+   },
+   "header": {
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "logo": "Logo",
+      "menuitems": {
+         "home": "Home",
+         "projects": "Projects",
+         "contact": "Contact"
+      }
+   },
+   "hero": {},
+   "features": {
+      "aboutus": {
+         "title": "About us",
+         "description": "SDL Platforms aims to become a benchmark at the forefront of e-Commerce innovation. Our team embodies a culture fueled by boundless creativity, unwavering collaboration, and an insatiable hunger for excellence."
+      },
+      "innovation": {
+         "title": "Innovation",
+         "description": "We embrace change and continuously seek new ways to improve and evolve. Innovation is in our DNA, and we encourage bold ideas and experimentation."
+      },
+      "empowerment": {
+         "title": "Empowerment",
+         "description": "We empower our users by providing intuitive, user-friendly solutions. Whether it’s through our web, mobile or desktop applications, we aim to make technology accessible to all."
+      },
+      "community": {
+         "title": "Community",
+         "description": "We recognize that our success is intertwined with the success of our community. We actively engage with users, partners, and stakeholders to build lasting relationships."
+      },
+      "sustainability": {
+         "title": "Sustainability",
+         "description": "We are committed to responsible practices. Our digital services prioritize efficiency, security, and environmental consciousness."
+      }
+   },
+   "whotrustus": { "title": "Trusted by industry leaders" },
+   "projects": {
+      "title": "Projects",
+      "active": "Active Projects",
+      "upcoming": "Upcoming Projects",
+      "keyfeatures": "Key Features",
+      "gotoproject": "Go to the project",
+      "thimsmarket": {
+         "name": "Thims Market",
+         "description": "Thims Market is the ultimate marketplace where web designers and developers connect to share, sell, and discover exceptional website templates for NextJS, fostering a thriving community that unlocks new revenue streams and creative opportunities.",
+         "features": {
+            "one": {
+               "title": "Visibility and Reach",
+               "description": "We offer quality content to a wide and diverse audience of people interested in website creation."
+            },
+            "two": {
+               "title": "Community and Feedback",
+               "description": "Everyone can become part of an active community of designers and developers."
+            },
+            "three": {
+               "title": "Sustainable Business Model",
+               "description": "We have a shared income structure that motivates creators to create high-quality website templates."
+            }
+         }
+      },
+      "cloudstorage": {
+         "name": "CloudStorage",
+         "description": "CloudStorage is the ultimate solution for your digital storage needs, offering a seamless blend of security, accessibility, and convenience. With CloudStorage, you can rest assured that your data is protected and available whenever you need it.",
+         "features": {
+            "one": {
+               "title": "Unmatched Security",
+               "description": "Our state-of-the-art encryption ensures that your files are always protected. With end-to-end encryption, your data is secure from the moment you upload it until you access it."
+            },
+            "two": {
+               "title": "Anywhere Access",
+               "description": "Access your files from any device, anywhere in the world. Whether you’re on a phone, tablet, or computer, your data is just a click away."
+            },
+            "three": {
+               "title": "Effortless Sharing",
+               "description": "Share files and folders with colleagues, friends, and family with ease. Set permissions and share links securely, knowing that only the intended recipients can access your data."
+            }
+         }
+      }
+   },
+   "contact": {
+      "address": "Address",
+      "emirate": "Emirate",
+      "country": "Country",
+      "sendusmessage": "Send us a message",
+      "name": { "title": "Name", "placeholder": "Enter your name" },
+      "email": { "title": "Email", "placeholder": "Enter your email" },
+      "message": {
+         "title": "Message",
+         "placeholder": "Enter the message (4096 characters maximum)"
+      },
+      "send": "Send",
+      "sendingmessage": "Sending message...",
+      "messagesent": "Message sent.",
+      "errorsendingmessage": "An error ocurred."
+   },
+   "terms": { "title": "Terms & Conditions" },
+   "privacy": { "title": "Privacy policy" },
+   "refunds": { "title": "Refunds policy" },
+   "footer": {
+      "company": "Company",
+      "legal": {
+         "title": "Legal",
+         "terms": "Terms & Conditions",
+         "privacy": "Privacy policy",
+         "refunds": "Refunds policy"
+      }
+   }
 }

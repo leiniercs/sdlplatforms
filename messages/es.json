@@ -1,114 +1,114 @@
 {
-	"metadata": {
-		"description": "Compañía matríz que hospeda software y servicios que tienen un objetivo en común: ofrecer servicios útiles y de alta calidad a las masas.",
-		"keywords": "sdl platforms"
-	},
-	"app": {
-		"title": "SDL Platforms"
-	},
-	"header": {
-		"openMenu": "Abrir menú",
-		"closeMenu": "Cerrar menú",
-		"logo": "Logo",
-		"menuitems": {
-			"home": "Inicio",
-			"projects": "Proyectos",
-			"contact": "Contacto"
-		}
-	},
-	"hero": {},
-	"features": {
-		"aboutus": {
-			"title": "Sobre nosotros",
-			"description": "SDL Platforms se erige como un modelo a la vanguardia de la innovación tecnológica. Nuestro equipo encarna una cultura impulsada por una creatividad ilimitada, una colaboración inquebrantable y un hambre insaciable de excelencia."
-		},
-		"innovation": {
-			"title": "Innovación",
-			"description": "Aceptamos el cambio y buscamos continuamente nuevas formas de mejorar y evolucionar. La innovación está en nuestro ADN y fomentamos la experimentación y las ideas audaces."
-		},
-		"empowerment": {
-			"title": "Empoderamiento",
-			"description": "Empoderamos a nuestros usuarios brindándoles soluciones intuitivas y fáciles de usar. Ya sea a través de nuestras aplicaciones web, móviles o de escritorio, nuestro objetivo es hacer que la tecnología sea accesible para todos."
-		},
-		"community": {
-			"title": "Comunidad",
-			"description": "Reconocemos que nuestro éxito está entrelazado con el éxito de nuestra comunidad. Nos involucramos activamente con usuarios, socios y partes interesadas para construir relaciones duraderas."
-		},
-		"sustainability": {
-			"title": "Sostenibilidad",
-			"description": "Estamos comprometidos con prácticas responsables. Nuestros servicios digitales priorizan la eficiencia, la seguridad y la conciencia ambiental."
-		}
-	},
-	"whotrustus": { "title": "Confiado por líderes de la industria" },
-	"projects": {
-		"title": "Proyectos",
-		"active": "Proyectos Activos",
-		"upcoming": "Próximos Proyectos",
-		"keyfeatures": "Características Clave",
-		"gotoproject": "Ir al proyecto",
-		"thimsmarket": {
-			"name": "Thims Market",
-			"description": "Thims Market es el mercado definitivo donde los diseñadores y desarrolladores web se conectan para compartir, vender y descubrir plantillas de sitios web excepcionales para NextJS, fomentando una comunidad próspera que desbloquea nuevas fuentes de ingresos y oportunidades creativas.",
-			"features": {
-				"one": {
-					"title": "Visibilidad y Alcance",
-					"description": "Ofrecemos contenido de calidad a una audiencia amplia y diversa de personas interesadas en la creación de sitios web."
-				},
-				"two": {
-					"title": "Comunidad y Retroalimentación",
-					"description": "Todos pueden formar parte de una comunidad activa de diseñadores y desarrolladores."
-				},
-				"three": {
-					"title": "Modelo de Negocio Sostenible",
-					"description": "Tenemos una estructura de ingresos compartidos que motiva a los creadores a crear plantillas de sitios web de alta calidad."
-				}
-			}
-		},
-		"cloudstorage": {
-			"name": "CloudStorage",
-			"description": "CloudStorage es la solución definitiva para tus necesidades de almacenamiento digital, ofreciendo una combinación perfecta de seguridad, accesibilidad y comodidad. Con CloudStorage, puedes estar seguro de que tus datos están protegidos y disponibles cuando los necesites.",
-			"features": {
-				"one": {
-					"title": "Seguridad Inigualable",
-					"description": "Nuestro cifrado de vanguardia garantiza que tus archivos estén siempre protegidos. Con el cifrado de extremo a extremo, tus datos están seguros desde el momento en que los subes hasta que accedes a ellos."
-				},
-				"two": {
-					"title": "Acceso en Cualquier Lugar",
-					"description": "Accede a tus archivos desde cualquier dispositivo, en cualquier parte del mundo. Ya sea que estés en un teléfono, tableta o computadora, tus datos están a un clic de distancia."
-				},
-				"three": {
-					"title": "Compartición Sin Esfuerzo",
-					"description": "Comparte archivos y carpetas con colegas, amigos y familiares con facilidad. Establece permisos y comparte enlaces de forma segura, sabiendo que solo los destinatarios previstos pueden acceder a tus datos."
-				}
-			}
-		}
-	},
-	"contact": {
-		"address": "Dirección",
-		"emirate": "Emirato",
-		"country": "País",
-		"sendusmessage": "Envíanos un mensaje",
-		"name": { "title": "Nombre", "placeholder": "Introduzca su nombre" },
-		"email": { "title": "Correo", "placeholder": "Introduzca su correo" },
-		"message": {
-			"title": "Mensaje",
-			"placeholder": "Introduzca el mensaje (4096 caracteres máximo)"
-		},
-		"send": "Enviar",
-		"sendingmessage": "Enviando mensaje...",
-		"messagesent": "Mensaje enviado.",
-		"errorsendingmessage": "Ocurrió un error."
-	},
-	"terms": { "title": "Términos & Condiciones" },
-	"privacy": { "title": "Política de privacidad" },
-	"refunds": { "title": "Política de reembolsos" },
-	"footer": {
-		"company": "Compañía",
-		"legal": {
-			"title": "Legal",
-			"terms": "Términos & Condiciones",
-			"privacy": "Política de privacidad",
-			"refunds": "Política de reembolsos"
-		}
-	}
+   "metadata": {
+      "description": "Compañía matríz que hospeda software y servicios que tienen un objetivo en común: ofrecer servicios útiles y de alta calidad a las masas.",
+      "keywords": "sdl platforms"
+   },
+   "app": {
+      "title": "SDL Platforms"
+   },
+   "header": {
+      "openMenu": "Abrir menú",
+      "closeMenu": "Cerrar menú",
+      "logo": "Logo",
+      "menuitems": {
+         "home": "Inicio",
+         "projects": "Proyectos",
+         "contact": "Contacto"
+      }
+   },
+   "hero": {},
+   "features": {
+      "aboutus": {
+         "title": "Sobre nosotros",
+         "description": "SDL Platforms apunta a convertirse en un faro a la vanguardia de la innovación del comercio electrónico. Nuestro equipo encarna una cultura impulsada por una creatividad ilimitada, una colaboración inquebrantable y un hambre insaciable de excelencia."
+      },
+      "innovation": {
+         "title": "Innovación",
+         "description": "Aceptamos el cambio y buscamos continuamente nuevas formas de mejorar y evolucionar. La innovación está en nuestro ADN y fomentamos la experimentación y las ideas audaces."
+      },
+      "empowerment": {
+         "title": "Empoderamiento",
+         "description": "Empoderamos a nuestros usuarios brindándoles soluciones intuitivas y fáciles de usar. Ya sea a través de nuestras aplicaciones web, móviles o de escritorio, nuestro objetivo es hacer que la tecnología sea accesible para todos."
+      },
+      "community": {
+         "title": "Comunidad",
+         "description": "Reconocemos que nuestro éxito está entrelazado con el éxito de nuestra comunidad. Nos involucramos activamente con usuarios, socios y partes interesadas para construir relaciones duraderas."
+      },
+      "sustainability": {
+         "title": "Sostenibilidad",
+         "description": "Estamos comprometidos con prácticas responsables. Nuestros servicios digitales priorizan la eficiencia, la seguridad y la conciencia ambiental."
+      }
+   },
+   "whotrustus": { "title": "Confiado por líderes de la industria" },
+   "projects": {
+      "title": "Proyectos",
+      "active": "Proyectos Activos",
+      "upcoming": "Próximos Proyectos",
+      "keyfeatures": "Características Clave",
+      "gotoproject": "Ir al proyecto",
+      "thimsmarket": {
+         "name": "Thims Market",
+         "description": "Thims Market es el mercado definitivo donde los diseñadores y desarrolladores web se conectan para compartir, vender y descubrir plantillas de sitios web excepcionales para NextJS, fomentando una comunidad próspera que desbloquea nuevas fuentes de ingresos y oportunidades creativas.",
+         "features": {
+            "one": {
+               "title": "Visibilidad y Alcance",
+               "description": "Ofrecemos contenido de calidad a una audiencia amplia y diversa de personas interesadas en la creación de sitios web."
+            },
+            "two": {
+               "title": "Comunidad y Retroalimentación",
+               "description": "Todos pueden formar parte de una comunidad activa de diseñadores y desarrolladores."
+            },
+            "three": {
+               "title": "Modelo de Negocio Sostenible",
+               "description": "Tenemos una estructura de ingresos compartidos que motiva a los creadores a crear plantillas de sitios web de alta calidad."
+            }
+         }
+      },
+      "cloudstorage": {
+         "name": "CloudStorage",
+         "description": "CloudStorage es la solución definitiva para tus necesidades de almacenamiento digital, ofreciendo una combinación perfecta de seguridad, accesibilidad y comodidad. Con CloudStorage, puedes estar seguro de que tus datos están protegidos y disponibles cuando los necesites.",
+         "features": {
+            "one": {
+               "title": "Seguridad Inigualable",
+               "description": "Nuestro cifrado de vanguardia garantiza que tus archivos estén siempre protegidos. Con el cifrado de extremo a extremo, tus datos están seguros desde el momento en que los subes hasta que accedes a ellos."
+            },
+            "two": {
+               "title": "Acceso en Cualquier Lugar",
+               "description": "Accede a tus archivos desde cualquier dispositivo, en cualquier parte del mundo. Ya sea que estés en un teléfono, tableta o computadora, tus datos están a un clic de distancia."
+            },
+            "three": {
+               "title": "Compartición Sin Esfuerzo",
+               "description": "Comparte archivos y carpetas con colegas, amigos y familiares con facilidad. Establece permisos y comparte enlaces de forma segura, sabiendo que solo los destinatarios previstos pueden acceder a tus datos."
+            }
+         }
+      }
+   },
+   "contact": {
+      "address": "Dirección",
+      "emirate": "Emirato",
+      "country": "País",
+      "sendusmessage": "Envíanos un mensaje",
+      "name": { "title": "Nombre", "placeholder": "Introduzca su nombre" },
+      "email": { "title": "Correo", "placeholder": "Introduzca su correo" },
+      "message": {
+         "title": "Mensaje",
+         "placeholder": "Introduzca el mensaje (4096 caracteres máximo)"
+      },
+      "send": "Enviar",
+      "sendingmessage": "Enviando mensaje...",
+      "messagesent": "Mensaje enviado.",
+      "errorsendingmessage": "Ocurrió un error."
+   },
+   "terms": { "title": "Términos & Condiciones" },
+   "privacy": { "title": "Política de privacidad" },
+   "refunds": { "title": "Política de reembolsos" },
+   "footer": {
+      "company": "Compañía",
+      "legal": {
+         "title": "Legal",
+         "terms": "Términos & Condiciones",
+         "privacy": "Política de privacidad",
+         "refunds": "Política de reembolsos"
+      }
+   }
 }

@@ -107,19 +107,6 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
                or accessing these features.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               Information We Collect through Cookies
-            </p>
-            <p>
-               We also automatically collect certain information about your
-               interaction with the Services (&quot;Usage Data&quot;). To do
-               this, we may use cookies, pixels and similar technologies
-               (&quot;Cookies&quot;). Usage Data may include information about
-               how you access and use our Site and your account, including
-               device information, browser information, information about your
-               network connection, your IP address and other information
-               regarding your interaction with the Services.
-            </p>
-            <p className="mt-3 font-semibold uppercase">
                Information We Obtain from Third Parties
             </p>
             <p>
@@ -128,13 +115,21 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
                information on our behalf, such as:
             </p>
             <ul>
-               <li>Companies who support our Site and Services.</li>
+               <li className="font-semibold">
+                  Companies who support our Site and Services.
+               </li>
                <li>
                   Our payment processors, who collect payment information (e.g.,
                   bank account, credit or debit card information, billing
                   address) to process your payment in order to fulfill your
                   orders and provide you with products or services you have
                   requested, in order to perform our contract with you.
+               </li>
+               <li>
+                  {contact.company} will not give away, transfer, rent nor sell
+                  any information related to the client&apos;s payment
+                  information (e.g., bank account, credit or debit card
+                  information, billing address).
                </li>
             </ul>
             <p>

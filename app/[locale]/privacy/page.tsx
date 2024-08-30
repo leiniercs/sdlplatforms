@@ -527,7 +527,7 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
                recopilar información en nuestro nombre, como:
             </p>
             <ul>
-               <li>
+               <li className="font-semibold">
                   Empresas que brindan soporte a nuestro Sitio y Servicios.
                </li>
                <li>
@@ -537,6 +537,15 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
                   su pago con el fin de cumplir con sus pedidos y proporcionarle
                   los productos o servicios que ha solicitado, para cumplir con
                   nuestro contrato con usted.
+               </li>
+               <li>
+                  {contact.company} no cederá, transferirá, alquilará ni venderá
+                  ninguna información relacionada con la información de pago del
+                  cliente (por ejemplo, información de cuenta bancaria,
+                  información de tarjeta de crédito o débito, dirección de
+                  facturación) a ninguna entidad de terceros a menos que un
+                  proceso legal nos obligue a hacerlo de acuerdo con las leyes
+                  de {contact.country}.
                </li>
             </ul>
             <p>

@@ -129,7 +129,9 @@ export default async function Privacy({ params: { locale } }: CustomPageProps) {
                   {contact.company} will not give away, transfer, rent nor sell
                   any information related to the client&apos;s payment
                   information (e.g., bank account, credit or debit card
-                  information, billing address).
+                  information, billing address) to any third-party entity unless
+                  a legal process compel us to do so according to the{" "}
+                  {contact.country} laws.
                </li>
             </ul>
             <p>

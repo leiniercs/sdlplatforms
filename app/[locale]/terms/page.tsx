@@ -178,7 +178,62 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                be corrected.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION
+               SECTION 6 - PRODUCT PURCHASING
+            </p>
+            <p>
+               In order to purchase a Product from one or our Services, the
+               Client must visit the Service&apos;s Website, explore the
+               Products offered there, add the wanted Products to the cart and
+               when the Client is ready to purchse them, the Client must review
+               the cart to see the names, prices, currency, accepted cards and
+               proceed to click the Checkout button.
+            </p>
+            <p>
+               Once clicked the Checkout button, the Client will be redirected
+               to the {contact.company} Payment Page:{" "}
+               <a href="https://pay.sdlplatforms.com">
+                  https://pay.sdlplatforms.com
+               </a>
+               ; in which the Client will be able to review once again the
+               desired products&apos; names, quantities, prices, currencies,
+               totals, discounts and the accepted cards in the Order Summary
+               card.
+            </p>
+            <p>
+               After the Client reviewed all the details in the Order Summary
+               card, the Client must proceed to type the personal information
+               (full name, address, state, country, phone number and email)
+               required to request to our Payment Processors the Payment Form,
+               in which the Client must type the payment information (bank card
+               number, expiry date, CVV, card holder&apos;s and 3DS
+               authentication) in order to proceed with the payment of the
+               desired Products.
+            </p>
+            <p>
+               After a successfull payment, the Client will receive the digital
+               invoice of the purchase on the declared email, which will include
+               the next details:
+            </p>
+            <ul>
+               <li>Details of the seller: The Company.</li>
+               <li>Details of the buyer: The Client</li>
+               <li>
+                  The Order Summary with Products&apos; names, quantities,
+                  prices, currencies, discounts and totals
+               </li>
+               <li>The Download Links of the purchased Products</li>
+               <li>
+                  Additional information with the contact email address of the
+                  Company
+               </li>
+               <li>Information about how to proceed with a Refund request</li>
+               <li>
+                  Information about how to proceed to with a review to the
+                  Company
+               </li>
+            </ul>
+            <p className="mt-3 font-semibold uppercase">
+               SECTION 7 - ACCURACY OF BILLING AND ACCOUNT INFORMATION
             </p>
             <p>
                We reserve the right to refuse any order you place with us. We
@@ -208,7 +263,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                </a>
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 7 - PAYMENT METHODS
+               SECTION 8 - PAYMENT METHODS
             </p>
             <p>
                The Products and Services provided can be purchased online via
@@ -232,7 +287,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                transaction records and adhere to merchant policies and rules.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 8 - THIRD-PARTY LINKS
+               SECTION 9 - THIRD-PARTY LINKS
             </p>
             <p>
                Certain content, Products and Services available via our Service
@@ -257,7 +312,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                third-party.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 9 - PERSONAL INFORMATION
+               SECTION 10 - PERSONAL INFORMATION
             </p>
             <p>
                Your submission of personal information through this website and
@@ -268,7 +323,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                </a>
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 10 - ERRORS, INACCURACIES AND OMISSIONS
+               SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS
             </p>
             <p>
                Occasionally there may be information on our site or in the
@@ -291,7 +346,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                modified or updated.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 11 - PROHIBITED USES
+               SECTION 12 - PROHIBITED USES
             </p>
             <p>
                In addition to other prohibitions as set forth in the Terms of
@@ -319,7 +374,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                for violating any of the prohibited uses.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 12 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY
+               SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY
             </p>
             <p>
                We do not guarantee, represent or warrant that your use of our
@@ -371,7 +426,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                their accounts.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 13 - INDEMNIFICATION
+               SECTION 14 - INDEMNIFICATION
             </p>
             <p>
                You agree to indemnify, defend and hold harmless
@@ -385,7 +440,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                rights of a third-party.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 14 - SEVERABILITY
+               SECTION 15 - SEVERABILITY
             </p>
             <p>
                In the event that any provision of these Terms of Service is
@@ -397,7 +452,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                remaining provisions.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 15 - TERMINATION
+               SECTION 16 - TERMINATION
             </p>
             <p>
                The obligations and liabilities of the parties incurred prior to
@@ -419,7 +474,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                you access to our Services (or any part thereof).
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 16 - ENTIRE AGREEMENT
+               SECTION 17 - ENTIRE AGREEMENT
             </p>
             <p>
                The failure of us to exercise or enforce any right or provision
@@ -440,7 +495,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                shall not be construed against the drafting party.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 17 - GOVERNING LAW
+               SECTION 18 - GOVERNING LAW
             </p>
             <p>
                These Terms of Service and any separate agreements whereby we
@@ -453,7 +508,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                and construed in accordance with the laws of {contact.country}.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 18 - CHANGES TO TERMS OF SERVICE
+               SECTION 19 - CHANGES TO TERMS OF SERVICE
             </p>
             <p>
                You can review the most current version of the Terms of Service
@@ -469,7 +524,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                those changes.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECTION 19 - CONTACT INFORMATION
+               SECTION 20 - CONTACT INFORMATION
             </p>
             <p>
                Questions about the Terms of Service should be sent to us at
@@ -674,7 +729,65 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                sus expectativas, ni que se corrijan errores en los Servicios.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 6 - PRECISIÓN DE LA FACTURACIÓN E INFORMACIÓN DE LA
+               SECCIÓN 6 - COMPRA DE PRODUCTOS
+            </p>
+            <p>
+               Para comprar un Producto de uno de nuestros Servicios, el Cliente
+               debe visitar el Sitio Web del Servicio, explorar los Productos
+               que allí se ofrecen, agregar los Productos deseados al carrito y
+               cuando el Cliente esté listo para comprarlos, debe revisar el
+               carrito para ver los nombres, precios, moneda, tarjetas aceptadas
+               y proceder a hacer clic en el botón Finalizar Compra.
+            </p>
+            <p>
+               Una vez que haya hecho clic en el botón Finalizar Compra, el
+               Cliente será redireccionado a la Página de Pago de{" "}
+               {contact.company}:{" "}
+               <a href="https://pay.sdlplatforms.com">
+                  https://pay.sdlplatforms.com
+               </a>
+               ; en la cual el Cliente podrá revisar nuevamente los nombres,
+               cantidades, precios, monedas, totales, descuentos y las tarjetas
+               aceptadas de los productos deseados en la tarjeta Resumen de
+               Pedido.
+            </p>
+            <p>
+               Después de que el Cliente haya revisado todos los detalles en la
+               tarjeta Resumen del Pedido, el Cliente deberá proceder a ingresar
+               la información personal (nombre completo, dirección, estado,
+               país, número de teléfono y correo electrónico) requerida para
+               solicitar a nuestros Procesadores de Pago el Formulario de Pago,
+               en el cual el Cliente deberá ingresar la información de pago
+               (número de tarjeta bancaria, fecha de vencimiento, CVV,
+               autenticación del titular de la tarjeta y 3DS) para proceder con
+               el pago de los Productos deseados.
+            </p>
+            <p>
+               Después de un pago exitoso, el Cliente recibirá la factura
+               digital de la compra en el correo electrónico indicado, que
+               incluirá los siguientes detalles:
+            </p>
+            <ul>
+               <li>Datos del vendedor: La Compañía.</li>
+               <li>Datos del comprador: El Cliente</li>
+               <li>
+                  El Resumen del Pedido con los Productos: Nombres, cantidades,
+                  precios, monedas, descuentos y totales
+               </li>
+               <li>Los enlaces de descarga de los productos adquiridos</li>
+               <li>
+                  Información adicional con la dirección de correo electrónico
+                  de contacto de la Empresa
+               </li>
+               <li>
+                  Información sobre cómo proceder con una solicitud de Reembolso
+               </li>
+               <li>
+                  Información sobre cómo proceder con una revisión a la Empresa
+               </li>
+            </ul>
+            <p className="mt-3 font-semibold uppercase">
+               SECCIÓN 7 - PRECISIÓN DE LA FACTURACIÓN E INFORMACIÓN DE LA
                CUENTA
             </p>
             <p>
@@ -709,7 +822,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                </a>
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 7 - MÉTODOS DE PAGO
+               SECCIÓN 8 - MÉTODOS DE PAGO
             </p>
             <p>
                Los Products y Servicios proveídos pueden ser comprados en línea
@@ -735,7 +848,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                normas del comerciante.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 8 - ENLACES DE TERCEROS
+               SECCIÓN 9 - ENLACES DE TERCEROS
             </p>
             <p>
                Cierto contenido, productos y servicios disponibles a través de
@@ -760,7 +873,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                terceros debe dirigirse al tercero.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 9 - INFORMACIÓN PERSONAL
+               SECCIÓN 10 - INFORMACIÓN PERSONAL
             </p>
             <p>
                Su envío de información personal a través de este sitio web y
@@ -771,7 +884,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                </a>
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 10 - ERRORES, INEXACTITUDES Y OMISIONES
+               SECCIÓN 11 - ERRORES, INEXACTITUDES Y OMISIONES
             </p>
             <p>
                Ocasionalmente puede haber información en nuestro sitio o en el
@@ -795,7 +908,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                ha sido modificada o actualizada.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 11 - USOS PROHIBIDOS
+               SECCIÓN 12 - USOS PROHIBIDOS
             </p>
             <p>
                Además de otras prohibiciones establecidas en los Términos de
@@ -825,7 +938,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                relacionado por violar cualquiera de los usos prohibidos.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 12 - RENUNCIA DE GARANTÍAS; LIMITACIÓN DE RESPONSABILIDAD
+               SECCIÓN 13 - RENUNCIA DE GARANTÍAS; LIMITACIÓN DE RESPONSABILIDAD
             </p>
             <p>
                No garantizamos, representamos ni aseguramos que su uso de
@@ -884,7 +997,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                sus cuentas.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 13 - INDEMNIZACIÓN
+               SECCIÓN 14 - INDEMNIZACIÓN
             </p>
             <p>
                Usted acepta indemnizar, defender y eximir de responsabilidad a
@@ -898,7 +1011,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                cualquier ley o los derechos de un tercero.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 14 - SEPARABILIDAD
+               SECCIÓN 15 - SEPARABILIDAD
             </p>
             <p>
                En el caso de que se determine que alguna disposición de estos
@@ -910,7 +1023,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                otra disposición restante.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 15 - TERMINACIÓN
+               SECCIÓN 16 - TERMINACIÓN
             </p>
             <p>
                Las obligaciones y responsabilidades de las partes incurridas
@@ -934,7 +1047,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                acceso a nuestros Servicios (o parte de ellos).
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 16 - ACUERDO COMPLETO
+               SECCIÓN 17 - ACUERDO COMPLETO
             </p>
             <p>
                El hecho de que no hagamos valer o ejercer cualquier derecho o
@@ -956,7 +1069,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                Servicio no se interpretará en contra de la parte redactora.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 17 - LEY APLICABLE
+               SECCIÓN 18 - LEY APLICABLE
             </p>
             <p>
                Estos Términos de Servicio y cualquier acuerdo separado mediante
@@ -969,7 +1082,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                e interpretará de conformidad con las leyes de {contact.country}.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 18 - CAMBIOS A LOS TÉRMINOS DE SERVICIO
+               SECCIÓN 19 - CAMBIOS A LOS TÉRMINOS DE SERVICIO
             </p>
             <p>
                Puede revisar la versión más reciente de los Términos de Servicio
@@ -986,7 +1099,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                de Servicio constituye la aceptación de dichos cambios.
             </p>
             <p className="mt-3 font-semibold uppercase">
-               SECCIÓN 19 - INFORMACIÓN DE CONTACTO
+               SECCIÓN 20 - INFORMACIÓN DE CONTACTO
             </p>
             <p>
                Preguntas sobre los Términos de Servicio deben ser enviadas a

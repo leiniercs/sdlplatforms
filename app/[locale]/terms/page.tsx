@@ -184,7 +184,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                In order to purchase a Product from one or our Services, the
                Client must visit the Service&apos;s Website, explore the
                Products offered there, add the wanted Products to the cart and
-               when the Client is ready to purchse them, the Client must review
+               when the Client is ready to purchase them, the Client must review
                the cart to see the names, prices, currency, accepted cards and
                proceed to click the Checkout button.
             </p>

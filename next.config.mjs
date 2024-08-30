@@ -6,7 +6,8 @@ const cspHeader = `
     style-src 'self' 'unsafe-inline';
     img-src 'self' blob: data:;
     font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;
-    frame-src 'self' https://www.google.com;
+    frame-src 'self' https://www.google.com https://maps.googleapis.com;
+    connect-src 'self' https://maps.googleapis.com;
     object-src 'none';
     frame-ancestors 'none';
     upgrade-insecure-requests;

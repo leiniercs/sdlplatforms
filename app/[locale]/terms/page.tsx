@@ -211,8 +211,8 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
             </p>
             <p>
                After a successfull payment, the Client will receive the digital
-               invoice of the purchase on the declared email, which will include
-               the next details:
+               invoice of the purchase on the declared email within a period of
+               time not exceeding 24 hours, which will include the next details:
             </p>
             <ul>
                <li>Details of the seller: The Company.</li>
@@ -242,7 +242,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                include orders placed by or under the same customer account, the
                same credit card, and/or orders that use the same billing
                information. In the event that we make a change to or cancel an
-               order, we may attempt to notify you by contacting the e‑mail
+               order, we may attempt to notify you by contacting the email
                and/or billing address/phone number provided at the time the
                order was made. We reserve the right to limit or prohibit orders
                that, in our sole judgment, appear to be placed by dealers,
@@ -764,8 +764,9 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
             </p>
             <p>
                Después de un pago exitoso, el Cliente recibirá la factura
-               digital de la compra en el correo electrónico indicado, que
-               incluirá los siguientes detalles:
+               digital de la compra en el correo electrónico indicado en un
+               lapso de tiempo no mayor a 24 horas, el cual incluirá los
+               siguientes detalles:
             </p>
             <ul>
                <li>Datos del vendedor: La Compañía.</li>

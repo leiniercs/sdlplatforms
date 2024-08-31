@@ -228,7 +228,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                </li>
                <li>Information about how to proceed with a Refund request</li>
                <li>
-                  Information about how to proceed to with a review to the
+                  Information about how to proceed to give a review to the
                   Company
                </li>
             </ul>
@@ -784,7 +784,7 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
                   Información sobre cómo proceder con una solicitud de Reembolso
                </li>
                <li>
-                  Información sobre cómo proceder con una revisión a la Empresa
+                  Información sobre cómo proceder a dar opinión a la Empresa
                </li>
             </ul>
             <p className="mt-3 font-semibold uppercase">

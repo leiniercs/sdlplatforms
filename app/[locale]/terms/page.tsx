@@ -526,10 +526,6 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
             <p className="mt-3 font-semibold uppercase">
                SECTION 20 - CONTACT INFORMATION
             </p>
-            <p>
-               Questions about the Terms of Service should be sent to us at
-               <a href={contact.email}>{contact.email}</a>.
-            </p>
             <p>Our contact information is posted below:</p>
             <p>
                {contact.company}
@@ -1101,10 +1097,6 @@ export default async function Terms({ params: { locale } }: CustomPageProps) {
             </p>
             <p className="mt-3 font-semibold uppercase">
                SECCIÓN 20 - INFORMACIÓN DE CONTACTO
-            </p>
-            <p>
-               Preguntas sobre los Términos de Servicio deben ser enviadas a
-               nosotros a <a href={contact.email}>{contact.email}</a>.
             </p>
             <p>Nuestra información de contacto se encuentra a continuación:</p>
             <p>

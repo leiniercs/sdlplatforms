@@ -11,7 +11,6 @@ export default function WhoTrustUs() {
    const companies: Company[] = [
       { name: "IFZA", logo: "/images/logo/ifza.png" },
       { name: "EmiratesNBD", logo: "/images/logo/emiratesnbd.webp" },
-      { name: "RAKBank", logo: "/images/logo/rakbank.png" },
       {
          name: "Network International",
          logo: "/images/logo/networkinternational.svg"
